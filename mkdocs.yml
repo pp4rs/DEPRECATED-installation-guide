@@ -1,0 +1,17 @@
+site_name: Installation Guide - Programming Practices for Economics Research
+pages:
+- Welcome: index.md
+- Text Editor: textEditor.md
+- Command Line Tools: commandLine.md
+- Git: gitInstall.md
+- SQLite: sqlite.md
+- Python: python.md
+- Automation with Make: make.md
+- Automation with Waf: waf.md
+- R: r.md
+- Matlab: matlab.md
+- Path Settings: path-setting.md
+- Contact: contact.md
+- Acknowledgements: acknowledgement.md
+
+theme: readthedocs
