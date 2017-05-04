@@ -1,5 +1,4 @@
-# Programming Practices for Research in Economics
-## Installation Guide
+# Installation Guide
 
 <!-- The Installation Guide for the 2017 edition is not currently available.
 
