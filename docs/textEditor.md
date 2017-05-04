@@ -37,6 +37,8 @@ For this course, please install the following packages (not a complete list yet)
 * autocomplete-python
 * autoflow
 * hydrogen (?)
+* language-make
+* language-sql
 * language-r
 * linter
 * tablr
@@ -45,8 +47,6 @@ If you decide to stick with Atom after this course, you may find the following p
 
 * language-latex
 * language-markdown
-* language-make
-* language-sql
 * markdown-writer
 * markdown-preview-plus
 * whitepace
