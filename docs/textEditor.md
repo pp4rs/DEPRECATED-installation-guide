@@ -2,10 +2,13 @@
 
 A good text editor lies at the heart of any serious programmer's toolkit: It can do almost anything and makes you much more productive. The editors built into each program are generally are not an option (we will find certain cases where you may want to use them).
 
-This year we are encouraging all participants to use the text editor [Atom](https://atom.io/)
+This year we are encouraging all participants to use the text editor [Atom](https://atom.io/).
 
-Please download and install it and stick with it for at least the duration of the course and assignment to get a feel for how they work.
-There is a slight learning curve, but soon you will wonder why no-one forced you to do this before!
+Please download, install it alng with the necessary packages and stick with it for at least the duration of the course and assignment to get a feel for how it works.
+There is a slight learning curve, but soon you hopefully be wondering why no-one forced you to do this before!
+We should get you past the steepest part of the learning curve during the course itself, so we don't anticipate you struggling on your own.
+
+*Note:* None of the skills we learn in the course are tied to Atom, so if you do decide to move away to another editor, nothing will be lost.
 
 <!-- ## Installing Sublime Text
 
@@ -24,7 +27,7 @@ For this course, we will install the minimum number of packages necessary to mak
 ## Installing Additional Packages for Atom
 
 Atom's package manager is built in to the program itself and is relatively esay to interact with.
-To access Atom's settings press `Ctrl + ,` then go to the 'Install +' tab which is visible on the left hand side.
+To access Atom's settings press `Ctrl + ,` on your keyboard then click on the `Install +` tab which is visible on the left hand side.
 
 On the Installation page there is a prompt where you can type in a package name and then press `Enter/Return` and Atom will search for that package for you and return results with similar names. When you find the package that you need, you click the blue Install button and the package will be installed.
 
@@ -32,6 +35,7 @@ For this course, please install the following packages (not a complete list yet)
 
 * autocomplete-r
 * autocomplete-python
+* autoflow
 * hydrogen (?)
 * language-r
 * linter
@@ -41,8 +45,11 @@ If you decide to stick with Atom after this course, you may find the following p
 
 * language-latex
 * language-markdown
+* language-make
+* language-sql
 * markdown-writer
 * markdown-preview-plus
+* whitepace
 
 <!-- ## Additional Package for Sublime Text
 

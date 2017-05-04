@@ -2,7 +2,7 @@ site_name: Programming Practices for Research in Econonomics
 pages:
 - Getting Started: index.md
 - Terminology: terminology.md
-# - Text Editor: textEditor.md
+- Text Editor: textEditor.md
 # - Command Line Tools: commandLine.md
 # - Git: gitInstall.md
 # - SQLite: sqlite.md
