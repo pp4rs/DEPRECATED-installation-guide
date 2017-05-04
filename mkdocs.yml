@@ -1,6 +1,7 @@
 site_name: Programming Practices for Economics Research - Installation Guide
 pages:
-- Welcome: index.md
+- Getting Started: index.md
+- Terminology: terminology.md
 # - Text Editor: textEditor.md
 # - Command Line Tools: commandLine.md
 # - Git: gitInstall.md
