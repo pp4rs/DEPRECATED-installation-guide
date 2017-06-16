@@ -1,7 +1,7 @@
 ## Database Management with SQLite
 
 SQLite is a lightweight Relational Database Management System - it stores data in a specified format and uses the SQL language to work with the data.
-SQL style database management systems are a great way of storing data - particularly if your data is "big" because it will not be held in RAM as you work with it.
+SQL style database management systems are a great way of storing data - particularly if your data is "big" because it will not be stored in RAM as you work with it.
 
 We chose SQLite because it involves the least set up and assumes no knowledge of server management.
 
@@ -41,13 +41,10 @@ SQLite should already be installed on your system.
 
 To check, open a terminal and then type (followed by hitting the return key):
 
-    sqlite3
+    sqlite3 --version
 
-If it is installed, you should see the following output:
+If it is installed, you should see something similar to the follwoing returned:
 
-    SQLite version 3.13.0 2016-05-18 10:57:30
-    Enter ".help" for usage hints.
-    Connected to a transient in-memory database.
-    Use ".open FILENAME" to reopen on a persistent database.
+    3.15.2 2016-11-28 19:13:37
 
-**Note: exit sqlite by typing `.exit`**
+This is the version number that you have installed. Ensure that the version you have installed is `3.15.1` or higher.
