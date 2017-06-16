@@ -3,6 +3,8 @@
 Git is a Version Control System (VCS) that has gained a lot of traction among the programming community.
 We will want to use version control to keep track of the files we write, and the changes we make to them.
 
+## Account Creation
+
 During the course we will show you how to host some of your work on GitHub and the Economics Department's internal GitLab server.
 You will need to setup accounts for each of these:
 
@@ -10,11 +12,11 @@ You will need to setup accounts for each of these:
 * Sign into the [Economics Department's GitLab server](https://econgit.uzh.ch/). Use your UZH shortname and your web-access password (think OLAT). You will need to access "Econ Git" while on-site at UZH or whilst using a UZH VPN if you are off-site.
 
 
-## Installation Guide
+## Installing Git
 
 ### Windows Users
 
- Get the latest versions of:
+ Download and install the latest versions of:
 
  * [msysgit](http://msysgit.github.io), and
  * [TortoiseGit](http://code.google.com/p/tortoisegit/wiki/Download)
@@ -41,12 +43,10 @@ We will need to make Git accessible from the command line. Windows and Mac users
 
 To verify your installation, type the following command in a terminal and press the return key:
 
-       git
+       git --version
 
 You should get a bunch of output that begins with:
 
-        usage: git [--version] [--help] [-C <path>] [-c name=value]
-       [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-       [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
-       [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-       <command> [<args>]
+        git version 2.XX.XX
+
+where the `X`'s represent a version number. Ensure that you have a version greater than `2.10.1` installed.
