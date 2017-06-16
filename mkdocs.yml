@@ -4,12 +4,12 @@ pages:
 - Terminology: terminology.md
 - Text Editor: textEditor.md
 - Command Line Tools: commandLine.md
-# - Git: gitInstall.md
-# - SQLite: sqlite.md
+- Git: gitInstall.md
 # - Python: python.md
 # - Automation with Make: make.md
 # - Automation with Waf: waf.md
 # - R: r.md
+# - SQLite: sqlite.md
 # - Matlab: matlab.md
 # - Path Settings: path-setting.md
 # - Contact: contact.md
