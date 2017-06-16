@@ -5,9 +5,10 @@ pages:
 - Text Editor: textEditor.md
 - Command Line Tools: commandLine.md
 - Git: gitInstall.md
-# - Python: python.md
+- Python: python.md
 # - Automation with Make: make.md
 # - Automation with Waf: waf.md
+# - Build Tools: snakemake.md
 # - R: r.md
 # - SQLite: sqlite.md
 # - Matlab: matlab.md
