@@ -7,7 +7,7 @@ It's use in the data science and econometrics community has taken off over recen
 
 Go to the [R homepage](https://cran.r-project.org/) and download the installer for your operating system.
 
-The current version of R is 3.3.1 -- "Bug in Your Hair."
+The current version of R is 3.4
 
 ## Installing RStudio
 
@@ -22,9 +22,8 @@ We will need some additional libraries to conduct our statistical analysis. Proc
 * Open RStudio
 * In the console, copy and paste the following:
 
-        uzh_progecon = c("ggplot2", "tibble", "dplyr",
-                      "tidyr", "stringr", "reshape",
-                          "purrr", "plm", "Hmisc", "sandwich",
+        uzh_progecon = c("tidyverse",  "reshape",
+        "plm", "Hmisc", "sandwich",
                           "Ecdat", "stargazer", "knitr",
                           "xtable")
 

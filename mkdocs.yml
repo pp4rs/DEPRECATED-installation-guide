@@ -6,10 +6,10 @@ pages:
 - Command Line Tools: commandLine.md
 - Git: gitInstall.md
 - Python: python.md
+- R: r.md
 # - Automation with Make: make.md
 # - Automation with Waf: waf.md
 # - Build Tools: snakemake.md
-# - R: r.md
 # - SQLite: sqlite.md
 # - Matlab: matlab.md
 # - Path Settings: path-setting.md
