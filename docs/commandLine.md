@@ -1,6 +1,6 @@
 # Command Line Tools
 
-A command-line interface or command language interpreter (CLI), also known as command-line user interface, is a means of interacting with a computer program where the user issues commands to the program in the form of successive lines of text (command lines).
+A command-line interface or command language interpreter (CLI), also known as a terminal, is a means of interacting with a computer program where the user issues commands to the program in the form of successive lines of text (command lines).
 
 Throughout the course we will emphasize use of the terminal and executing commands within it as our modus operandi.
 
@@ -11,16 +11,19 @@ Throughout the course we will emphasize use of the terminal and executing comman
 So that we can work as closely as possible to the Mac and Linux users we will install [Cygwin](https://www.cygwin.com/).
 Download it [here](https://cygwin.com/install.html) and use the graphical installer. Accept all the default options.
 
-**Do not delete the setup-x86_64.exe file.** It needs to be kept so that we can add on some additional packages throughout the course.
+* Cygwin will be used as our command line tool, and unlike other Windows shells like PowerShell it uses Unix syntax.
+    * Anywhere throughout the remainder of the installation guide where we suggest you to enter a command into a terminal, use your CygWin terminal
+
+**Do not delete the setup-x86_64.exe file.** It needs to be kept so that we can add on some additional packages to use in the course.
 
 
 ### Mac Users
 
 A command line interface comes already installed on Mac OSX.
 
-But you will need to install some other software from the terminal thoughout the course, so it will be useful to install some additional "command line tools" now:
+You will need to install some other software from the terminal thoughout the course, so it will be useful to install some additional "command line tools" now:
 
-First we want to install X-code command line tools. Open a terminal and then copy and paste the following
+First we want to install X-code command line tools. Open a terminal (`Cmd + T`) and then copy and paste the following
 
     xcode-select --install
 

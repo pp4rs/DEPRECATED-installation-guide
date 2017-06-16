@@ -3,7 +3,7 @@ pages:
 - Getting Started: index.md
 - Terminology: terminology.md
 - Text Editor: textEditor.md
-# - Command Line Tools: commandLine.md
+- Command Line Tools: commandLine.md
 # - Git: gitInstall.md
 # - SQLite: sqlite.md
 # - Python: python.md
