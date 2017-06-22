@@ -18,13 +18,12 @@ to the variable value – make sure the rest remains as it is and do not include
 
 Click on OK as often as needed.
 
-If you accepted all defaults during your installation, and didn^t have any other non-default setting prior to starting this guide, modifying the following string, with your relevant username *should* work:
+If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, with your relevant username *should* work:
 
         ;C:\Users\ldeer\AppData\Local\atom\bin
         ;C:\Program Files\Git\bin
-        ;C:\Program Files\MATLAB\R2016a\bin\
-        ;C:\Program Files\R\R-3.3.1\bin
-        ;C:\Program Files (x86)\Sublime Text 3
+        ;C:\Program Files\R\R-3.X.X\bin
+        ;
 
 
 ## Mac Users (Slight Modifications for Linux Users)
