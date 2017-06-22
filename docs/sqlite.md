@@ -43,7 +43,7 @@ To check, open a terminal and then type (followed by hitting the return key):
 
     sqlite3 --version
 
-If it is installed, you should see something similar to the follwoing returned:
+If it is installed, you should see something similar to the following returned:
 
     3.15.2 2016-11-28 19:13:37
 
