@@ -1,6 +1,6 @@
 # Contact Us
 
-### Programming Practices Team
+## Programming Practices Team
 
 Programming Practices for Economics Research was created by
 
@@ -9,13 +9,15 @@ Programming Practices for Economics Research was created by
 * Julian Langer
 * Max Winkler
 
-at the Department of Economics, University of Zurich. These slides are from the 2016 edition.
+at the Department of Economics, University of Zurich. This installation guide is for the 2017 edition conducted by the original course creators.
 
-### Questions or Comments?
+## Questions or Comments?
 
 Please contact us via email:
 
+```
 programming "AT" econ.uzh.ch
+```
 
 with the title "Installation Guide: Programming Practices for Research in Economics."
 
