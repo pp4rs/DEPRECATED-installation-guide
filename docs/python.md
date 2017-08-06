@@ -11,4 +11,15 @@ To verify that the correct version of python has been installed, open a command 
 
 You should see the following information returned:
 
-    Python 3.5.2 :: Anaconda 4.1.1 (64-bit)
+* Windows users:
+```bash
+Python 3.5.2 :: Anaconda 4.1.1 (64-bit)
+```
+* Linux/Ubuntu users:
+```bash
+Python 3.5.2 :: Anaconda custom (64-bit)
+```
+* Mac users:
+```bash
+I have no idea what will come out
+```
