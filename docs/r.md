@@ -1,7 +1,7 @@
 # R and RStudio
 
 R is a language for statistical computing and graphics.
-It's use in the data science and econometrics community has taken off over recent years and (at a bare minimum) should be considered as a replacement software to Stata.
+It's use in the data science and econometrics community has taken off over recent years and (at a bare minimum) should be considered as an open source replacement to Stata.
 
 ## Installing R
 
@@ -20,13 +20,14 @@ Download and install RStudio for your operating system from [here](https://www.r
 We will need some additional libraries to conduct our statistical analysis. Proceed as follows:
 
 * Open RStudio
-* In the console, copy and paste the following:
+* In the **console**, copy and paste the following:
+```r
+uzh_progecon <- c("tidyverse",  "reshape",
+                    "plm", "Hmisc", "sandwich",
+                    "Ecdat", "stargazer", "knitr",
+                    "xtable")
 
-        uzh_progecon = c("tidyverse",  "reshape",
-        "plm", "Hmisc", "sandwich",
-                          "Ecdat", "stargazer", "knitr",
-                          "xtable")
-
-        install.packages(uzh_progecon)
-
+install.packages(uzh_progecon)
+```
 * Wait until all the packages have been installed and the you are done.
+    * It *may* take a while, so be patient
