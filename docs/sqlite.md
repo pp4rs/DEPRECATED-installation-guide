@@ -1,13 +1,12 @@
-## Database Management with SQLite
+# Database Management with SQLite
 
 SQLite is a lightweight Relational Database Management System - it stores data in a specified format and uses the SQL language to work with the data.
-SQL style database management systems are a great way of storing data - particularly if your data is "big" because it will not be stored in RAM as you work with it.
+SQL style database management systems are a great way of storing data - particularly if your data is modestly large because it will not be stored in RAM as you work with it.
 
-We chose SQLite because it involves the least set up and assumes no knowledge of server management.
+We chose to use SQLite because it involves the least set up, assumes no knowledge of server management and easily integrates with R and Python.
 
-## Installation Guide
 
-### For Windows Users
+## For Windows Users
 
 We will install SQLite so that it plays nicely within CygWin.
 Its time to go back to the **setup-x86_64.exe** we told you not to delete. We will use it to install sqlite.
@@ -27,24 +26,24 @@ so that version numbers again appear.
 
 **Note:** Clicking through all the pages before "Select Packages" will *not* install or modify anything you have done previously - so don't fret along the way.
 
-### For Mac Users
+## For Mac Users
 
 Open up a terminal and enter the following (followed by hitting the return key)
-
-    brew install sqlite3
-
-### For Linux Users
+```bash
+brew install sqlite3
+```
+## For Linux Users
 
 SQLite should already be installed on your system.
 
 ## Verifying the Installation
 
 To check, open a terminal and then type (followed by hitting the return key):
-
-    sqlite3 --version
-
+```bash
+sqlite3 --version
+```
 If it is installed, you should see something similar to the following returned:
-
-    3.15.2 2016-11-28 19:13:37
-
+```bash
+3.15.2 2016-11-28 19:13:37
+```
 This is the version number that you have installed. Ensure that the version you have installed is `3.15.1` or higher.
