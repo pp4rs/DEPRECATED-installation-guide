@@ -9,12 +9,10 @@ During the course we will show you how to host some of your work on GitHub and t
 You will need to setup accounts for each of these:
 
 * Please [register](https://github.com/join) for a [GitHub](https://github.com/) account
-* Sign into the [Economics Department's GitLab server](https://econgit.uzh.ch/). Use your UZH shortname and your web-access password (think OLAT). You will need to access "Econ Git" while on-site at UZH or whilst using a UZH VPN if you are off-site.
+* Sign into the [Economics Department's GitLab server](https://econgit.uzh.ch/). Use your UZH shortname and your web-access password (same as for OLAT). You will need to access "Econ Git" while on-site at UZH or whilst using a UZH VPN if you are off-site.
 
 
-## Installing Git
-
-### Windows Users
+## Windows Users
 
  Download and install the latest versions of:
 
@@ -26,13 +24,13 @@ You will need to setup accounts for each of these:
 
 
 
-###  Mac Users
+##  Mac Users
 
 On MacOS, download and install Git from [here](http://git-scm.com/download/mac).
 Also install the command-line auto-completion script, as described [here](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Auto-Completion).
 
 
-### Linux Users
+## Linux Users
 
 Follow the steps documented [here](https://git-scm.com/download/linux) to install on Linux from the terminal.
 
@@ -49,4 +47,4 @@ You should get a bunch of output that begins with:
 
         git version 2.XX.XX
 
-where the `X`'s represent a version number. Ensure that you have a version greater than `2.10.1` installed.
+where the `X`'s represent a version number. Ensure that you have a version greater than `2.7.1` installed.
