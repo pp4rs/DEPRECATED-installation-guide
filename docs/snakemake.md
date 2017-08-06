@@ -16,7 +16,7 @@ Verify that your installation worked correctly by entering
 
     snakemake --version
 
-into a termainal and pressing `Return`
+into a termainal and pressing `Return.`
 
 The expected output is the current version on the software, which should be greater than
 
