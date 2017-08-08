@@ -17,3 +17,7 @@ The expected output starts with the following information:
 pandoc 1.17.2
 ```
 Ensure you have at least version 1.17.1 installed.
+
+## Windows Users
+
+(Add section on command line access and PATH settings for windows)
