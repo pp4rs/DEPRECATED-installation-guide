@@ -12,6 +12,16 @@ You will need to setup accounts for each of these:
 * Sign into the [Economics Department's GitLab server](https://econgit.uzh.ch/). Use your UZH shortname and your web-access password (same as for OLAT). You will need to access "Econ Git" while on-site at UZH or whilst using a UZH VPN if you are off-site.
 
 
+##  Mac Users
+
+On MacOS, download and install Git from [here](http://git-scm.com/download/mac).
+Also install the command-line auto-completion script, as described [here](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Auto-Completion).
+
+
+## Linux Users
+
+Follow the steps documented [here](https://git-scm.com/download/linux) to install on Linux from the terminal.
+
 ## Windows Users
 
  Download and install the latest versions of:
@@ -22,17 +32,21 @@ You will need to setup accounts for each of these:
  After installing these programs use Windows Explorer to go to a folder that contains some documents (any folder) and right click on it.
  You should see some additional items - "GitBash" and "TortoiseGit" appear in the context menu upon right-clicking.
 
+We also want Git from the command line, so we again need to update our PATH settings.
 
+Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.
 
-##  Mac Users
+Choose “Edit” and append (i.e., do not overwrite the previous value):
 
-On MacOS, download and install Git from [here](http://git-scm.com/download/mac).
-Also install the command-line auto-completion script, as described [here](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Auto-Completion).
+       ;C:\Path\to\program.exe
 
+to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and the text.
 
-## Linux Users
+Click on OK as often as needed.
 
-Follow the steps documented [here](https://git-scm.com/download/linux) to install on Linux from the terminal.
+If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, with your relevant username *should* work:
+
+       ;C:\Program Files\Git\bin
 
 
 ## Verifying your install
