@@ -18,6 +18,42 @@ Go to the [downloads page](https://www.sublimetext.com/3) and download the live 
 
 Go to the [downloads page](https://github.com/atom/atom/releases/tag/v1.9.9) and download the live installer for your operating system.
 
+## Verifying Atom Installation
+
+We want Atom to be available from the command line. For Mac and Linux Users this is the default so if you type the following into the command line:
+
+```bash
+atom --version
+```
+followed by pressing `Return` you should see output like the following
+```bash
+Atom    : 1.12.7
+Electron: 1.3.13
+Chrome  : 52.0.2743.82
+Node    : 6.5.0
+```
+Make sure that the version numbers are equal to whats above or newer.
+
+### Windows Users
+
+Getting things to run from the command line for us is a bit harder. You will need local administration rights for your computer, but you should have these on your personal computers or ones owned by the Department.
+
+Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.
+
+Choose “Edit” and append (i.e., do not overwrite the previous value):
+
+        ;C:\Path\to\program.exe
+
+to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and the text.
+
+Click on OK as often as needed.
+
+If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, with your relevant username *should* work:
+
+        ;C:\Users\yourusername\AppData\Local\atom\bin
+
+Close your current terminal session, open a new one, and again try `atom --version` + `Return` and you should get a similar output to above.
+
 ## Additional Packages for Atom
 
 One of the advantages of atom is that there are many *packages* that make your life easier, ranging from simple syntax highlighting to environments that can mimic a complete graphical user interface.
@@ -36,7 +72,7 @@ For this course, please install the following packages (not a complete list yet)
 * autocomplete-r
 * autocomplete-python
 * autoflow
-* hydrogen (?)
+* hydrogen
 * language-make
 * language-sql
 * language-r
@@ -49,7 +85,7 @@ If you decide to stick with Atom after this course, you may find the following p
 * language-markdown
 * markdown-writer
 * markdown-preview-plus
-* whitepace
+* whitespace
 
 <!-- ## Additional Package for Sublime Text
 
