@@ -19,7 +19,7 @@ The expected output starts with the following information:
 ```bash
 pandoc 1.17.2
 ```
-Ensure you have at least version 1.17.1 installed.
+Ensure you have at least version 1.15.1 installed.
 
 !!! danger " Windows PATH Setting redux"
     If you want R available from the command line (it is by default for Mac and Linux), we again need to update our PATH settings.
