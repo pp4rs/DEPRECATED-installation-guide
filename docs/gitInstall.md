@@ -32,21 +32,23 @@ Follow the steps documented [here](https://git-scm.com/download/linux) to instal
  After installing these programs use Windows Explorer to go to a folder that contains some documents (any folder) and right click on it.
  You should see some additional items - "GitBash" and "TortoiseGit" appear in the context menu upon right-clicking.
 
-We also want Git from the command line, so we again need to update our PATH settings.
 
-Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.
+!!! danger "Windows PATH Setting Redux"
+    We also want Git from the command line, so we again need to update our PATH settings.
 
-Choose “Edit” and append (i.e., do not overwrite the previous value):
+    Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.
 
-       ;C:\Path\to\program.exe
+    Choose “Edit” and append (i.e., do not overwrite the previous value):
 
-to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and the text.
+           ;C:\Path\to\program.exe
 
-Click on OK as often as needed.
+    to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and the text.
 
-If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, with your relevant username *should* work:
+    Click on OK as often as needed.
 
-       ;C:\Program Files\Git\bin
+    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, with your relevant username *should* work:
+
+           ;C:\Program Files\Git\bin
 
 
 ## Verifying your install
