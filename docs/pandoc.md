@@ -8,7 +8,10 @@ We do not actively teach how to use Pandoc in the course - but we will utilize i
 ## Installation
 
 * Go to the [Pandoc Homepage](https://pandoc.org/) and follow the instructions on installation for your operating system.
-* Verify your install by typing the following into a command line:
+
+## Verify Your Install
+
+Verify your install by typing the following into a command line:
 ```bash
 pandoc --version
 ```
@@ -18,6 +21,13 @@ pandoc 1.17.2
 ```
 Ensure you have at least version 1.17.1 installed.
 
-## Windows Users
+!!! danger " Windows PATH Setting redux"
+    If you want R available from the command line (it is by default for Mac and Linux), we again need to update our PATH settings.
 
-(Add section on command line access and PATH settings for windows)
+    Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.
+
+    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, with your relevant username *should* work:
+
+            ;C:\Program Files (x86)\Pandoc\
+
+    After you have done this, open a **new** terminal and try and verify your install.
