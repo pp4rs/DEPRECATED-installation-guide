@@ -36,17 +36,12 @@ Copyright (C) 2017 The R Foundation for Statistical Computing
 
     Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.
 
-    Choose “Edit” and append (i.e., do not overwrite the previous value):
+    Choose “Edit”.
 
-            ;C:\Path\to\program.exe
-
-    to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and the text.
-
-    Click on OK as often as needed.
-
-    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, with your relevant username *should* work:
+    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, add:
 
             ;C:\Program Files\R\R-3.4.1\bin
+    Click on OK as often as needed.
 
     After you have done this, open a **new** terminal and try and verify your install.
 
@@ -60,10 +55,8 @@ We will need some additional libraries to conduct our statistical analysis. Proc
 uzh_progecon <- c(  "reshape", "rmarkdown",
                     "plm", "Hmisc", "sandwich",
                     "Ecdat", "stargazer", "knitr",
-                    "xtable", "rgeos", "ggmap", "sf"
-                    "httr", "rvest", "xml2", "tmaptools",
-                    "rgdal", "gdalUtils", "mapview",
-                    "tidyverse", "tmap")
+                    "httr", "rvest", "xml2",
+                    "xtable","tidyverse")
 
 install.packages(uzh_progecon)
 ```
