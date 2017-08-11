@@ -57,10 +57,13 @@ We will need some additional libraries to conduct our statistical analysis. Proc
 * Open RStudio
 * In the **console**, copy and paste the following:
 ```r
-uzh_progecon <- c("tidyverse",  "reshape", "rmarkdown",
+uzh_progecon <- c(  "reshape", "rmarkdown",
                     "plm", "Hmisc", "sandwich",
                     "Ecdat", "stargazer", "knitr",
-                    "xtable", "rgeos", "ggmap", "tmap")
+                    "xtable", "rgeos", "ggmap", "sf"
+                    "httr", "rvest", "xml2", "tmaptools",
+                    "rgdal", "gdalUtils", "mapview",
+                    "tidyverse", "tmap")
 
 install.packages(uzh_progecon)
 ```
