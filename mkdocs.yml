@@ -19,3 +19,5 @@ pages:
 - Acknowledgements: acknowledgement.md
 
 theme: readthedocs
+markdown_extensions:
+  - admonition
