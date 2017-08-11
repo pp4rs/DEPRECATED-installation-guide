@@ -2,13 +2,16 @@
 
 A good text editor lies at the heart of any serious programmer's toolkit: It can do almost anything and makes you much more productive. The editors built into each program are generally are not an option (we will find certain cases where you may want to use them).
 
-This year we are encouraging all participants to use the text editor [Atom](https://atom.io/).
+!!! danger "Updated for 2017"
+    This year we are encouraging all participants to use the text editor [Atom](https://atom.io/).
+    We hope this helps smooth out differences between text editors.
 
 Please download, install it alng with the necessary packages and stick with it for at least the duration of the course and assignment to get a feel for how it works.
 There is a slight learning curve, but soon you hopefully be wondering why no-one forced you to do this before!
 We should get you past the steepest part of the learning curve during the course itself, so we don't anticipate you struggling on your own.
 
-*Note:* None of the skills we learn in the course are tied to Atom, so if you do decide to move away to another editor, nothing will be lost.
+!!! note
+    None of the skills we learn in the course are tied to Atom, so if you do decide to move away to another editor, nothing will be lost.
 
 <!-- ## Installing Sublime Text
 
@@ -34,25 +37,24 @@ Node    : 6.5.0
 ```
 Make sure that the version numbers are equal to whats above or newer.
 
-### Windows Users
+!!! danger "Additional Step for Windows:"
+    Getting things to run from the command line for us is a bit harder. You will need local administration rights for your computer, but you should have these on your personal computers or ones owned by the Department.
 
-Getting things to run from the command line for us is a bit harder. You will need local administration rights for your computer, but you should have these on your personal computers or ones owned by the Department.
+    Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.
 
-Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.
+    Choose “Edit” and append (i.e., do not overwrite the previous value):
 
-Choose “Edit” and append (i.e., do not overwrite the previous value):
+            ;C:\Path\to\program.exe
 
-        ;C:\Path\to\program.exe
+    to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and the text.
 
-to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and the text.
+    Click on OK as often as needed.
 
-Click on OK as often as needed.
+    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, with your relevant username *should* work:
 
-If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, with your relevant username *should* work:
+            ;C:\Users\yourusername\AppData\Local\atom\bin
 
-        ;C:\Users\yourusername\AppData\Local\atom\bin
-
-Close your current terminal session, open a new one, and again try `atom --version` + `Return` and you should get a similar output to above.
+    Close your current terminal session, open a new one, and again try `atom --version` + `Return` and you should get a similar output to above.
 
 ## Additional Packages for Atom
 
@@ -73,19 +75,21 @@ For this course, please install the following packages (not a complete list yet)
 * autocomplete-python
 * autoflow
 * hydrogen
-* language-make
 * language-sql
 * language-r
 * linter
 * tablr
 
-If you decide to stick with Atom after this course, you may find the following packages useful in your day to day work:
+!!! tip
+    If you decide to stick with Atom after this course, you may find the following packages useful in your day to day work:
 
-* language-latex
-* language-markdown
-* markdown-writer
-* markdown-preview-plus
-* whitespace
+    * language-latex
+    * language-markdown
+    * markdown-writer
+    * markdown-preview-plus
+    * whitespace
+
+    Feel free to ask us for whatever other packages we use to make our programming lives easier during some downtime.
 
 <!-- ## Additional Package for Sublime Text
 
