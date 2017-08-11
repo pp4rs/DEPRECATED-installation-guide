@@ -19,14 +19,17 @@ lachlan@lachlan-ThinkPad-T460s: ~$
 ```
 We will explain what all this means in the first day or so of the course.
 
-* We will uses Cygwin as our command line tool, and unlike other Windows shells such as PowerShell it uses Unix syntax.
-        * Anywhere throughout the remainder of the installation guide where we suggest you to enter a command into a terminal, enter the text-based command into your Cygwin terminal, for example:
+!!! danger "Why Cygwin"
+    * We will uses Cygwin as our command line tool, and unlike other Windows shells such as PowerShell it uses Unix syntax.
 
-```bash
-userName@computerName: ~$ whoami
-```
+    * Anywhere throughout the remainder of the installation guide where we suggest you to enter a command into a terminal, enter the text-based command into your Cygwin terminal, for example:
 
-* **Do not delete the setup-x86_64.exe file.** It needs to be kept so that we can add on some additional packages to use in the course.
+    ```bash
+    userName@computerName: ~$ whoami
+    ```
+
+!!! danger "Do Not Delete the Install File"
+    * **Do not delete the setup-x86_64.exe file.** It needs to be kept so that we can add on some additional packages to use in the course.
 
 
 ## Mac Users
