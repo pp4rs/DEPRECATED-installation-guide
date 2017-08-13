@@ -49,16 +49,19 @@ Copyright (C) 2017 The R Foundation for Statistical Computing
 
 We will need some additional libraries to conduct our statistical analysis. Proceed as follows:
 
-* Open RStudio
-* In the **console**, copy and paste the following:
+*   Open RStudio
+*   In the **console**, copy and paste the following:
 ```r
 uzh_progecon <- c(  "reshape", "rmarkdown",
                     "plm", "Hmisc", "sandwich",
                     "Ecdat", "stargazer", "knitr",
                     "httr", "rvest", "xml2",
-                    "xtable","tidyverse")
+                    "xtable","tidyverse", "AER",
+                    "rdd", "car", "aod", "lmtest",
+                    "lfe", "nlme", "lme4",
+                    "erer", "margins")
 
 install.packages(uzh_progecon)
 ```
-* Wait until all the packages have been installed and the you are done.
-    * It *may* take a while, so be patient
+*   Wait until all the packages have been installed and the you are done.
+    *   It *may* take a while, so be patient
