@@ -6,6 +6,7 @@ pages:
 - Text Editor: textEditor.md
 - Git: gitInstall.md
 - Python: python.md
+- Python Extras: python-more.md
 - R: r.md
 # - Automation with Make: make.md
 # - Automation with Waf: waf.md
