@@ -8,31 +8,33 @@ We chose to use SQLite because it involves the least set up, assumes no knowledg
 
 ## For Windows Users
 
-We will install SQLite so that it plays nicely within CygWin.
+We will install SQLite so that it plays nicely within Cygwin.
 Its time to go back to the **setup-x86_64.exe** we told you not to delete. We will use it to install sqlite.
 Proceed as follows:
 
-* Click through the installation until you arrive at the page "Select packages."
-* Type sqlite into the search function and wait for the results to be filtered.
-* Click the '+' next to "Database" and then find the following lines:
-    * libsqlite3_0
-    * sqlite3
- and then click on the word 'Skip.' located next to each of these. 'Skip' should then be replaced with some numbers (the version which we will install)
-* Click the '+' next to "Ruby" and then click on 'Skip' next to:
-    * ruby-sqlite3
-    * ruby-sqlite-doc
-so that version numbers again appear.
-* Now click on "Next" in the bottom right corner and continue accepting all options until the installation is complete.
+*   Click through the installation until you arrive at the page "Select packages."
+*   Type `sqlite` into the search function and wait for the results to be filtered.
+*   Click the '+' next to "Database" and then find the following lines:
+    +   libsqlite3_0
+    +   sqlite3
+        *   Then click on the word 'Skip.' located next to each of these. 'Skip' should then be replaced with some numbers (the version which we will install)
+*   Click the '+' next to "Ruby" and then click on 'Skip' next to:
+    *   ruby-sqlite3
+    *   ruby-sqlite-doc
+        *   The version numbers should again appear.
+*   Now click on "Next" in the bottom right corner and continue accepting all options until the installation is complete.
 
-!!! success
-    Clicking through all the pages before "Select Packages" will *not* install or modify anything you have done previously - so don't fret along the way.
+!!! success "Partial Installation with Cygwin"
+    Clicking through all the pages before and after "Select Packages", will *not* install or modify anything you have done previously - it will only install the **new** packages that you have selected.
 
 ## For Mac Users
 
-Open up a terminal and enter the following (followed by hitting the `Return` key)
+Open up a terminal and enter the following
 ```bash
 brew install sqlite3
 ```
+Then hit the `Return` key.
+
 ## For Linux Users
 
 SQLite should already be installed on your system.

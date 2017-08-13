@@ -4,7 +4,7 @@ Snakemake is an easy to use workflow management system.
 It will allow us to control the execution of a set scripts by by running them from the command line.
 We will use make to automate the execution of our research projects with a "single click" so that our entire work flow is reproducible.
 
-!!! success "Why a Tool to Manage Project's Execution?"
+!!! tip "Why a Tool to Manage Project's Execution?"
     We strongly believe in using build tools to manage the execution of a research project - and we hope that by the end of the course you do too.
 
     Some reasons we push this topic are:
