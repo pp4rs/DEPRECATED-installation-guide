@@ -7,9 +7,10 @@ Throughout the course we will emphasize use of the terminal and executing comman
 ## Windows Users
 
 So that we can work as closely as possible to the Mac and Linux users we will install [Cygwin](https://www.cygwin.com/).
-Download it [here](https://cygwin.com/install.html) and use the graphical installer. Accept all the default options.
 
-* Verify your installation by opening Cygwin, when it opens you should see a black box with some text that looks like:
+*   Download Cygwin [here](https://cygwin.com/install.html) and use the graphical installer. Accept all the default options.
+
+*   Verify your installation by opening Cygwin. When it opens you should see a black box with some text that looks like:
 ```bash
 userName@computerName: ~$
 ```
@@ -19,18 +20,18 @@ lachlan@lachlan-ThinkPad-T460s: ~$
 ```
 We will explain what all this means in the first day or so of the course.
 
-!!! danger "Why Cygwin"
-    * We will uses Cygwin as our command line tool, and unlike other Windows shells such as PowerShell it uses Unix syntax.
+!!! tip "Why Cygwin"
+    *   We will uses Cygwin as our command line tool, and unlike other Windows shells such as PowerShell it uses Unix syntax.
 
-    * Anywhere throughout the remainder of the installation guide where we suggest you to enter a command into a terminal, enter the text-based command into your Cygwin terminal, for example:
+    *   Anywhere throughout the remainder of the installation guide where we suggest you to enter a command into a terminal, enter the text-based command into your Cygwin terminal followed by pressing `Return`, for example:
 
-    ```bash
-    userName@computerName: ~$ whoami
-    ```
+            userName@computerName: ~$ whoami
+
+
+    Should return your username.
 
 !!! danger "Do Not Delete the Install File"
-    * **Do not delete the setup-x86_64.exe file.** It needs to be kept so that we can add on some additional packages to use in the course.
-
+    *   **Do not delete the setup-x86_64.exe file.** It needs to be kept so that we can add on some additional packages to use in the course.
 
 ## Mac Users
 
@@ -61,4 +62,4 @@ Your system is ready to brew
 
 ## Linux Users
 
-Nothing needs to be done.
+Nothing needs to be done. You can open a terminal session with `Crtl` + `Alt` + `T`.
