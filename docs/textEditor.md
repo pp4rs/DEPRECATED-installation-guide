@@ -6,7 +6,7 @@ A good text editor lies at the heart of any serious programmer's toolkit: It can
     This year we are encouraging all participants to use the text editor [Atom](https://atom.io/).
     We hope this helps smooth out differences between text editors.
 
-Please download, install it alng with the necessary packages and stick with it for at least the duration of the course and assignment to get a feel for how it works.
+Please download, install it along with the necessary packages and stick with it for at least the duration of the course and assignment to get a feel for how it works.
 There is a slight learning curve, but soon you hopefully be wondering why no-one forced you to do this before!
 We should get you past the steepest part of the learning curve during the course itself, so we don't anticipate you struggling on your own.
 
@@ -38,21 +38,17 @@ Node    : 6.5.0
 Make sure that the version numbers are equal to whats above or newer.
 
 !!! danger "Additional Step for Windows:"
-    Getting things to run from the command line for us is a bit harder. You will need local administration rights for your computer, but you should have these on your personal computers or ones owned by the Department.
+    Getting things to run from the command line for us is a bit harder. You will need local administration rights for your computer, but you should have these on your personal computers or those owned by the Department.
 
     Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.
 
-    Choose “Edit” and append (i.e., do not overwrite the previous value):
+    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, choose “Edit” and append the following (i.e., do not overwrite the previous value) modifying the following string, with your relevant username *should* work:
 
-            ;C:\Path\to\program.exe
+            ;C:\Users\yourusername\AppData\Local\atom\bin
 
     to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and the text.
 
     Click on OK as often as needed.
-
-    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, with your relevant username *should* work:
-
-            ;C:\Users\yourusername\AppData\Local\atom\bin
 
     Close your current terminal session, open a new one, and again try `atom --version` + `Return` and you should get a similar output to above.
 
@@ -67,27 +63,34 @@ For this course, we will install the minimum number of packages necessary to mak
 Atom's package manager is built in to the program itself and is relatively esay to interact with.
 To access Atom's settings press `Ctrl + ,` on your keyboard then click on the `Install +` tab which is visible on the left hand side.
 
-On the Installation page there is a prompt where you can type in a package name and then press `Enter/Return` and Atom will search for that package for you and return results with similar names. When you find the package that you need, you click the blue Install button and the package will be installed.
+On the Installation page there is a prompt where you can type in a package name and then press `Return` and Atom will search for that package for you and return results with similar names.
+When you find the package that you need, you click the blue 'Install' button and the package will be installed.
 
-For this course, please install the following packages (not a complete list yet):
+For this course, please install the following packages:
 
-* autocomplete-r
-* autocomplete-python
-* autoflow
-* hydrogen
-* language-sql
-* language-r
-* linter
-* tablr
+*   autocomplete-r
+*   autocomplete-python
+*   autoflow
+*   hydrogen
+*   language-sql
+*   language-r
+*   linter
+*   linter-python
+*   linter-lintr
+*   tablr
+
+If during the installation of a package Atom asks to install dependencies, always choose to accept.
 
 !!! tip
     If you decide to stick with Atom after this course, you may find the following packages useful in your day to day work:
 
-    * language-latex
-    * language-markdown
-    * markdown-writer
-    * markdown-preview-plus
-    * whitespace
+    *   language-latex
+    *   language-markdown
+    *   language-matlab
+    *   language-stata
+    *   markdown-writer
+    *   markdown-preview-plus
+    *   whitespace
 
     Feel free to ask us for whatever other packages we use to make our programming lives easier during some downtime.
 
