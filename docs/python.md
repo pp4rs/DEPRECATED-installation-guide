@@ -25,5 +25,5 @@ Python 3.6.2 :: Anaconda custom (64-bit)
 ```
 * Mac users:
 ```bash
-I have no idea what will come out
+Python 3.6.2 :: Anaconda 4.4.0 (x86_64)
 ```
