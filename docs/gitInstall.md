@@ -8,11 +8,15 @@ We will want to use version control to keep track of the files we write, and the
 During the course we will show you how to host some of your work on GitHub and the Economics Department's internal GitLab server.
 You will need to setup accounts for each of these:
 
-* Please [register](https://github.com/join) for a [GitHub](https://github.com/) account
-* Sign into the [Economics Department's GitLab server](https://econgit.uzh.ch/). Use your UZH shortname and your web-access password (same as for OLAT). You will need to access "Econ Git" while on-site at UZH or whilst using a UZH VPN if you are off-site.
+*   Please [register](https://github.com/join) for a [GitHub](https://github.com/) account
+*   Sign into the [Economics Department's GitLab server](https://econgit.uzh.ch/). Use your UZH shortname and your web-access password (same as for OLAT). You will need to access "Econ Git" while on-site at UZH or whilst using a UZH VPN if you are off-site.
 
+!!! danger "Non-UZH Economics Students"
+    The UZH Department of Economics has a internal Git server that may be hard for you to access.
+    It looks and behaves almost identically to [GitLab](https://about.gitlab.com/).
+    We recommend that you register for an account here, so you can follow along in class.
 
-##  Mac Users
+## Mac Users
 
 On MacOS, download and install Git from [here](http://git-scm.com/download/mac).
 Also install the command-line auto-completion script, as described [here](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Auto-Completion).
@@ -24,13 +28,13 @@ Follow the steps documented [here](https://git-scm.com/download/linux) to instal
 
 ## Windows Users
 
- Download and install the latest versions of:
+Download and install the latest versions of:
 
- * [msysgit](http://msysgit.github.io), and
- * [TortoiseGit](http://code.google.com/p/tortoisegit/wiki/Download)
+*   [msysgit](http://msysgit.github.io), and
+*   [TortoiseGit](http://code.google.com/p/tortoisegit/wiki/Download)
 
- After installing these programs use Windows Explorer to go to a folder that contains some documents (any folder) and right click on it.
- You should see some additional items - "GitBash" and "TortoiseGit" appear in the context menu upon right-clicking.
+After installing these programs use Windows Explorer to go to a folder that contains some documents (any folder) and right click on it.
+You should see some additional items - "GitBash" and "TortoiseGit" appear in the context menu upon right-clicking.
 
 
 !!! danger "Windows PATH Setting Redux"
