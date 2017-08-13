@@ -7,7 +7,7 @@ We do not actively teach how to use Pandoc in the course - but we will utilize i
 
 ## Installation
 
-* Go to the [Pandoc Homepage](https://pandoc.org/) and follow the instructions on installation for your operating system.
+*   Go to the [Pandoc Homepage](https://pandoc.org/) and follow the instructions on installation for your operating system.
 
 ## Verify Your Install
 
