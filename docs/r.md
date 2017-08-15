@@ -1,7 +1,7 @@
 # R and RStudio
 
 R is a language for statistical computing and graphics.
-It's use in the data science and econometrics community has taken off over recent years and (at a bare minimum) should be considered as an open source replacement to Stata.
+R's use in the data science and econometrics community has taken off over recent years and (at a bare minimum) should be considered as an open source replacement to Stata.
 
 ## Installing R
 

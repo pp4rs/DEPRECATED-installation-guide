@@ -13,7 +13,7 @@ Follow the following steps:
 
 !!! tip "Hat-tip"
     We borrowed heavily from Nick Eubank's installation guide for 'Spatial Data in R' to assist in the Mac installation.
-    Nick's install guide is available [here](http://www.nickeubank.com/wp-content/uploads/2015/10/RGIS1_SpatialDataTypes_part0_setup.html)
+    Nick's install guide is available [here](http://www.nickeubank.com/wp-content/uploads/2015/10/RGIS1_SpatialDataTypes_part0_setup.html).
 
 ## Linux Users
 
@@ -27,9 +27,7 @@ Follow these steps:
 
         sudo apt-get install gdal-bin
 
-3.  To verify after installation, try:
-        ogrinfo
-If the installation was successful, you will see something like this:
+3.  To verify after installation, try entering `ogrinfo` into the a terminal then press `Return`. If the installation was successful, you will see something like this:
 
         Usage: ogrinfo [--help-general] [-ro] [-q] [-where restricted_where]
                        [-spat xmin ymin xmax ymax] [-fid fid]
@@ -41,7 +39,7 @@ If the installation was successful, you will see something like this:
 
 !!! tip "Hat-tip"
     We borrowed heavily from Sara Safavi to learn how to install `GDAL` on Ubuntu.
-    She provides an install guide [here](http://www.sarasafavi.com/installing-gdalogr-on-ubuntu.html)
+    She provides an install guide [here](http://www.sarasafavi.com/installing-gdalogr-on-ubuntu.html).
 
 ## Windows Users
 

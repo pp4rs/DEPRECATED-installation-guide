@@ -40,11 +40,11 @@ Make sure that the version numbers are equal to whats above or newer.
 !!! danger "Additional Step for Windows:"
     Getting things to run from the command line for us is a bit harder. You will need local administration rights for your computer, but you should have these on your personal computers or those owned by the Department.
 
-    Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.
+    Right-click on Computer. Then go to "Properties" and select the tab "Advanced System Settings". Choose "Environment Variables" and select "Path" from the list of system variables.
 
     If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, choose “Edit” and append the following (i.e., do not overwrite the previous value) modifying the following string, with your relevant `username` *should* work:
 
-            ;C:\Users\iusername\AppData\Local\atom\bin
+            ;C:\Users\username\AppData\Local\atom\bin
 
     to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and the text.
 
@@ -54,14 +54,14 @@ Make sure that the version numbers are equal to whats above or newer.
 
 ## Additional Packages for Atom
 
-One of the advantages of atom is that there are many *packages* that make your life easier, ranging from simple syntax highlighting to environments that can mimic a complete graphical user interface.
+One of the advantages of Atom is that there are many *packages* that make your life easier, ranging from simple syntax highlighting to environments that can mimic a complete graphical user interface.
 
 For this course, we will install the minimum number of packages necessary to make your coding life easier.
 
 ## Installing Additional Packages for Atom
 
-Atom's package manager is built in to the program itself and is relatively esay to interact with.
-To access Atom's settings press `Ctrl + ,` on your keyboard then click on the `Install +` tab which is visible on the left hand side.
+Atom's package manager is built in to the program itself and is relatively easy to interact with.
+To access Atom's settings press `Ctrl + ,` on your keyboard then click on the `Install` tab which is visible on the left hand side.
 
 On the Installation page there is a prompt where you can type in a package name and then press `Return` and Atom will search for that package for you and return results with similar names.
 When you find the package that you need, you click the blue 'Install' button and the package will be installed.

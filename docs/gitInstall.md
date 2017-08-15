@@ -59,8 +59,8 @@ To verify your installation, type the following command in a terminal and press 
 
        git --version
 
-You should get a bunch of output that begins with:
+You should get an output that looks like:
 
-        git version 2.XX.XX
+        git version 2.7.4
 
-where the `X`'s represent a version number. Ensure that you have a version greater than `2.7.1` installed.
+Ensure that you have a version greater than `2.7.1` installed.

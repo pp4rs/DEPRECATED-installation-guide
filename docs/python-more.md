@@ -6,7 +6,7 @@ If you're interested in all the packages included, click [here](https://docs.con
 Howevever, you may come across packages that are not installed by default.
 In this case we recommend you use the `pip` package management tool to install them.
 
-For this course, we will need the package `Selenium` as part of the web scraping toolkit we will build up. We install it, by entering the following into a terminal:
+For this course, we will need the package `Selenium` as part of the web scraping tool kit we will build up. We install it by entering the following into a terminal:
 
 ```bash
 pip install selenium
