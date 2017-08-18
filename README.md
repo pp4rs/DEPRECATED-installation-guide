@@ -2,8 +2,8 @@
 
 This is the source repository for the Installation Guide for Programming Practices for Research in Economics.
 
-The website is currently hosted [here](https://pp4rs.githib.io/installation-guide)
-)
+The website is currently hosted [here](https://pp4rs.githib.io/installation-guide).
+
 
 #### Author information (the authors)
 
