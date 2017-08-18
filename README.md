@@ -1,16 +1,16 @@
-# ReadMe Info for pp4rs Course Website
+# ReadMe Info for pp4rs Course Installation Guide
 
 This is the source repository for the Installation Guide for Programming Practices for Research in Economics.
 
-The website is currently hosted [here](https://lachlandeer.github.io/prog-course-install-guide
+The website is currently hosted [here](https://pp4rs.githib.io/installation-guide)
 )
 
 #### Author information (the authors)
 
 * Lachlan Deer: @lachlandeer
-* Adrian Etter: @aetter
+* Adrian Etter: @eydrian
 * Julian Langer: @julianlanger
-* Max Winkler: @mwinkler
+* Max Winkler: @m-winkler
 
 Alternatively, email us at: programming 'AT' econ 'DOT' uzh 'DOT' ch
 
@@ -29,7 +29,7 @@ mkdocs serve
 ```
 * Post the site to github pages using:
 ```{.bash, id:"j29ie3c7"}
-mkdocs gh-deploy -r https://github.com/lachlandeer/prog-course-install-guide
+mkdocs gh-deploy
 ```
 
 
@@ -43,7 +43,7 @@ All materials are licensed under a Creative Commons CC-BY-NC-SA license. The lic
 The suggested citation for the course materials is:
 
 ```
-Lachlan Deer, Adran Etter, Julian Langer & Max Winkler, 2017, Programming Practices for Research in Economics: Installation Guide, University of Zurich
+Lachlan Deer, Adran Etter, Julian Langer & Max Winkler, 2017, Installation Guide, Programming Practices for Research in Economics, University of Zurich
 ```
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
