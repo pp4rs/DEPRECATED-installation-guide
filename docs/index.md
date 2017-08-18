@@ -24,5 +24,5 @@ These pages should help you to get started setting up the computing environment 
     If you are struggling we are able to help - but we expect you have tried to work through the guide yourself.
     Details of the Installation help session are found below:
 
-    * When: Friday, August 25th, 9.30am - 12.30am (tentative)
+    * When: Friday, August 25th, 9.30am - 12.30am
     * Where: SOF-E-09
