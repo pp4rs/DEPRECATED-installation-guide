@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Git - Programming Practices for Research in Econonomics</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Git";
+    var mkdocs_page_input_path = "gitInstall.md";
+    var mkdocs_page_url = "/gitInstall/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Programming Practices for Research in Econonomics</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Getting Started</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../commandLine/">Command Line Tools</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../textEditor/">Text Editor</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Git</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#installing-git-and-setting-up-accounts">Installing Git and Setting Up Accounts</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#account-creation">Account Creation</a></li>
+        
+            <li><a class="toctree-l3" href="#mac-users">Mac Users</a></li>
+        
+            <li><a class="toctree-l3" href="#linux-users">Linux Users</a></li>
+        
+            <li><a class="toctree-l3" href="#windows-users">Windows Users</a></li>
+        
+            <li><a class="toctree-l3" href="#verifying-your-install">Verifying your install</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../python/">Python</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../python-more/">Python Extras</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../r/">R</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../gis/">GIS Tools for R</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../snakemake/">Build Tools</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../sqlite/">SQLite</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../pandoc/">Pandoc</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../contact/">Contact</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../acknowledgement/">Acknowledgements</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Programming Practices for Research in Econonomics</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Git</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="installing-git-and-setting-up-accounts">Installing Git and Setting Up Accounts</h1>
+<p>Git is a Version Control System (VCS) that has gained a lot of traction among the programming community.
+We will want to use version control to keep track of the files we write, and the changes we make to them.</p>
+<h2 id="account-creation">Account Creation</h2>
+<p>During the course we will show you how to host some of your work on GitHub and the Economics Department's internal GitLab server.
+You will need to setup accounts for each of these:</p>
+<ul>
+<li>Please <a href="https://github.com/join">register</a> for a <a href="https://github.com/">GitHub</a> account</li>
+<li>Sign into the <a href="https://econgit.uzh.ch/">Economics Department's GitLab server</a>. Use your UZH shortname and your web-access password (same as for OLAT). You will need to access "Econ Git" while on-site at UZH or whilst using a UZH VPN if you are off-site.</li>
+</ul>
+<div class="admonition danger">
+<p class="admonition-title">Non-UZH Economics Students</p>
+<p>The UZH Department of Economics has a internal Git server that may be hard for you to access.
+It looks and behaves almost identically to <a href="https://about.gitlab.com/">GitLab</a>.
+We recommend that you register for an account here, so you can follow along in class.</p>
+</div>
+<h2 id="mac-users">Mac Users</h2>
+<p>On MacOS, download and install Git from <a href="http://git-scm.com/download/mac">here</a>.
+Also install the command-line auto-completion script, as described <a href="https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Auto-Completion">here</a>.</p>
+<h2 id="linux-users">Linux Users</h2>
+<p>Follow the steps documented <a href="https://git-scm.com/download/linux">here</a> to install on Linux from the terminal.</p>
+<h2 id="windows-users">Windows Users</h2>
+<p>Download and install the latest versions of:</p>
+<ul>
+<li><a href="http://msysgit.github.io">msysgit</a>, and</li>
+<li><a href="http://code.google.com/p/tortoisegit/wiki/Download">TortoiseGit</a></li>
+</ul>
+<p>After installing these programs use Windows Explorer to go to a folder that contains some documents (any folder) and right click on it.
+You should see some additional items - "GitBash" and "TortoiseGit" appear in the context menu upon right-clicking.</p>
+<div class="admonition danger">
+<p class="admonition-title">Windows PATH Setting Redux</p>
+<p>We also want Git from the command line, so we again need to update our PATH settings.</p>
+<p>Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.</p>
+<p>Choose “Edit”.</p>
+<p>If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, add:</p>
+<pre><code>   ;C:\Program Files\Git\bin
+</code></pre>
+<p>Click on OK as often as needed.</p>
+</div>
+<h2 id="verifying-your-install">Verifying your install</h2>
+<p>We will need to make Git accessible from the command line. Windows and Mac users will need to follow the steps on the page "Modifying Path Settings." Linux users will already have git accessible from the command line.</p>
+<p>To verify your installation, type the following command in a terminal and press the return key:</p>
+<pre><code>   git --version
+</code></pre>
+<p>You should get an output that looks like:</p>
+<pre><code>    git version 2.7.4
+</code></pre>
+<p>Ensure that you have a version greater than <code>2.7.1</code> installed.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../python/" class="btn btn-neutral float-right" title="Python">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../textEditor/" class="btn btn-neutral" title="Text Editor"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../textEditor/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../python/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>

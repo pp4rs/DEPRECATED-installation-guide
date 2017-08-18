@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Text Editor - Programming Practices for Research in Econonomics</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Text Editor";
+    var mkdocs_page_input_path = "textEditor.md";
+    var mkdocs_page_url = "/textEditor/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Programming Practices for Research in Econonomics</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Getting Started</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../commandLine/">Command Line Tools</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Text Editor</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#text-editors">Text Editors</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#installing-atom">Installing Atom</a></li>
+        
+            <li><a class="toctree-l3" href="#verifying-atom-installation">Verifying Atom Installation</a></li>
+        
+            <li><a class="toctree-l3" href="#additional-packages-for-atom">Additional Packages for Atom</a></li>
+        
+            <li><a class="toctree-l3" href="#installing-additional-packages-for-atom">Installing Additional Packages for Atom</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../gitInstall/">Git</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../python/">Python</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../python-more/">Python Extras</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../r/">R</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../gis/">GIS Tools for R</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../snakemake/">Build Tools</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../sqlite/">SQLite</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../pandoc/">Pandoc</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../contact/">Contact</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../acknowledgement/">Acknowledgements</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Programming Practices for Research in Econonomics</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Text Editor</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="text-editors">Text Editors</h1>
+<p>A good text editor lies at the heart of any serious programmer's toolkit: It can do almost anything and makes you much more productive. The editors built into each program are generally are not an option (we will find certain cases where you may want to use them).</p>
+<div class="admonition danger">
+<p class="admonition-title">Updated for 2017</p>
+<p>This year we are encouraging all participants to use the text editor <a href="https://atom.io/">Atom</a>.
+We hope this helps smooth out differences between text editors.</p>
+</div>
+<p>Please download, install it along with the necessary packages and stick with it for at least the duration of the course and assignment to get a feel for how it works.
+There is a slight learning curve, but soon you hopefully be wondering why no-one forced you to do this before!
+We should get you past the steepest part of the learning curve during the course itself, so we don't anticipate you struggling on your own.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>None of the skills we learn in the course are tied to Atom, so if you do decide to move away to another editor, nothing will be lost.</p>
+</div>
+<!-- ## Installing Sublime Text
+
+Go to the [downloads page](https://www.sublimetext.com/3) and download the live installer for your operating system. -->
+
+<h2 id="installing-atom">Installing Atom</h2>
+<p>Go to the <a href="https://github.com/atom/atom/releases/tag/v1.9.9">downloads page</a> and download the live installer for your operating system.</p>
+<h2 id="verifying-atom-installation">Verifying Atom Installation</h2>
+<p>We want Atom to be available from the command line. For Mac and Linux Users this is the default so if you type the following into the command line:</p>
+<pre><code class="bash">atom --version
+</code></pre>
+
+<p>followed by pressing <code>Return</code> you should see output like the following</p>
+<pre><code class="bash">Atom    : 1.12.7
+Electron: 1.3.13
+Chrome  : 52.0.2743.82
+Node    : 6.5.0
+</code></pre>
+
+<p>Make sure that the version numbers are equal to whats above or newer.</p>
+<div class="admonition danger">
+<p class="admonition-title">Additional Step for Windows:</p>
+<p>Getting things to run from the command line for us is a bit harder. You will need local administration rights for your computer, but you should have these on your personal computers or those owned by the Department.</p>
+<p>Right-click on Computer. Then go to "Properties" and select the tab "Advanced System Settings". Choose "Environment Variables" and select "Path" from the list of system variables.</p>
+<p>If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, choose “Edit” and append the following (i.e., do not overwrite the previous value) modifying the following string, with your relevant <code>username</code> <em>should</em> work:</p>
+<pre><code>    ;C:\Users\username\AppData\Local\atom\bin
+</code></pre>
+<p>to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and the text.</p>
+<p>Click on OK as often as needed.</p>
+<p>Close your current terminal session, open a new one, and again try <code>atom --version</code> + <code>Return</code> and you should get a similar output to above.</p>
+</div>
+<h2 id="additional-packages-for-atom">Additional Packages for Atom</h2>
+<p>One of the advantages of Atom is that there are many <em>packages</em> that make your life easier, ranging from simple syntax highlighting to environments that can mimic a complete graphical user interface.</p>
+<p>For this course, we will install the minimum number of packages necessary to make your coding life easier.</p>
+<h2 id="installing-additional-packages-for-atom">Installing Additional Packages for Atom</h2>
+<p>Atom's package manager is built in to the program itself and is relatively easy to interact with.
+To access Atom's settings press <code>Ctrl + ,</code> on your keyboard then click on the <code>Install</code> tab which is visible on the left hand side.</p>
+<p>On the Installation page there is a prompt where you can type in a package name and then press <code>Return</code> and Atom will search for that package for you and return results with similar names.
+When you find the package that you need, you click the blue 'Install' button and the package will be installed.</p>
+<p>For this course, please install the following packages:</p>
+<ul>
+<li>autocomplete-r</li>
+<li>autocomplete-python</li>
+<li>autoflow</li>
+<li>hydrogen</li>
+<li>language-sql</li>
+<li>language-r</li>
+<li>linter</li>
+<li>linter-python</li>
+<li>linter-lintr</li>
+<li>tablr</li>
+</ul>
+<p>If during the installation of a package Atom asks to install dependencies, always choose to accept.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If you decide to stick with Atom after this course, you may find the following packages useful in your day to day work:</p>
+<ul>
+<li>language-latex</li>
+<li>language-markdown</li>
+<li>language-matlab</li>
+<li>language-stata</li>
+<li>markdown-writer</li>
+<li>markdown-preview-plus</li>
+<li>whitespace</li>
+</ul>
+<p>Feel free to ask us for whatever other packages we use to make our programming lives easier during some downtime.</p>
+</div>
+<!-- ## Additional Package for Sublime Text
+
+For those who want to use Sublime Text as their editor, you will need to add an additional package, "Package Control" to it so that we can customize it a little throughout the course. Proceed as follows:
+
+Open the Sublime Text console via the using the ctrl+` shortcut or the View > Show Console menu.
+Once open, paste the code below into the console (and press return):
+
+        import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+
+We will show you how to use Package Control during the course. -->
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../gitInstall/" class="btn btn-neutral float-right" title="Git">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../commandLine/" class="btn btn-neutral" title="Command Line Tools"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../commandLine/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../gitInstall/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>

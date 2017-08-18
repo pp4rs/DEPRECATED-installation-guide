@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>GIS Tools for R - Programming Practices for Research in Econonomics</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "GIS Tools for R";
+    var mkdocs_page_input_path = "gis.md";
+    var mkdocs_page_url = "/gis/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Programming Practices for Research in Econonomics</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Getting Started</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../commandLine/">Command Line Tools</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../textEditor/">Text Editor</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../gitInstall/">Git</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../python/">Python</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../python-more/">Python Extras</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../r/">R</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">GIS Tools for R</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#geographical-data-with-r">Geographical data with R</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#mac-users">Mac Users</a></li>
+        
+            <li><a class="toctree-l3" href="#linux-users">Linux Users</a></li>
+        
+            <li><a class="toctree-l3" href="#windows-users">Windows Users</a></li>
+        
+            <li><a class="toctree-l3" href="#installing-additional-r-packages">Installing Additional R Packages</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../snakemake/">Build Tools</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../sqlite/">SQLite</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../pandoc/">Pandoc</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../contact/">Contact</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../acknowledgement/">Acknowledgements</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Programming Practices for Research in Econonomics</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>GIS Tools for R</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="geographical-data-with-r">Geographical data with R</h1>
+<p>R has many tools to deal with Geo-spatial data.
+We will introduce the essentials to get you up and started.</p>
+<h2 id="mac-users">Mac Users</h2>
+<p>Follow the following steps:</p>
+<ol>
+<li>Download GDAL complete</li>
+<li>Doubleclick and install the .dmg file as you are used to on a Mac</li>
+<li>Proceed to <code>Installing Additonal R Packages</code></li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Hat-tip</p>
+<p>We borrowed heavily from Nick Eubank's installation guide for 'Spatial Data in R' to assist in the Mac installation.
+Nick's install guide is available <a href="http://www.nickeubank.com/wp-content/uploads/2015/10/RGIS1_SpatialDataTypes_part0_setup.html">here</a>.</p>
+</div>
+<h2 id="linux-users">Linux Users</h2>
+<p>Follow these steps:</p>
+<ol>
+<li>
+<p>In your terminal type the following, then hit <code>Return</code></p>
+<pre><code>sudo add-apt-repository ppa:ubuntugis/ppa &amp;&amp; sudo apt-get update
+</code></pre>
+</li>
+<li>
+<p>Hit enter when prompted, then enter the following before again hitting the <code>Return</code> key:</p>
+<pre><code>sudo apt-get install gdal-bin
+</code></pre>
+</li>
+<li>
+<p>To verify after installation, try entering <code>ogrinfo</code> into the a terminal then press <code>Return</code>. If the installation was successful, you will see something like this:</p>
+<pre><code>Usage: ogrinfo [--help-general] [-ro] [-q] [-where restricted_where]
+               [-spat xmin ymin xmax ymax] [-fid fid]
+               [-sql statement] [-al] [-so] [-fields={YES/NO}]
+               [-geom={YES/NO/SUMMARY}][--formats]
+               datasource_name [layer [layer ...]]
+</code></pre>
+</li>
+<li>
+<p>Proceed to <code>Installing Additonal R Packages</code></p>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Hat-tip</p>
+<p>We borrowed heavily from Sara Safavi to learn how to install <code>GDAL</code> on Ubuntu.
+She provides an install guide <a href="http://www.sarasafavi.com/installing-gdalogr-on-ubuntu.html">here</a>.</p>
+</div>
+<h2 id="windows-users">Windows Users</h2>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>For once, Windows is ahead of the game. We only need to install R packages!</p>
+</div>
+<h2 id="installing-additional-r-packages">Installing Additional R Packages</h2>
+<p>We will need some additional libraries to conduct our GIS analysis. Proceed as follows:</p>
+<ul>
+<li>Open RStudio</li>
+<li>In the <strong>console</strong>, copy and paste the following:</li>
+</ul>
+<pre><code class="r">uzh_gistools &lt;- c(&quot;rgeos&quot;, &quot;ggmap&quot;, &quot;sf&quot;,
+                    &quot;sp&quot;,&quot;raster&quot;  &quot;tmaptools&quot;,
+                    &quot;rgdal&quot;, &quot;gdalUtils&quot;, &quot;mapview&quot;, &quot;tmap&quot;)
+
+install.packages(uzh_gistools)
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../snakemake/" class="btn btn-neutral float-right" title="Build Tools">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../r/" class="btn btn-neutral" title="R"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../r/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../snakemake/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>

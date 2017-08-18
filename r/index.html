@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>R - Programming Practices for Research in Econonomics</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "R";
+    var mkdocs_page_input_path = "r.md";
+    var mkdocs_page_url = "/r/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Programming Practices for Research in Econonomics</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Getting Started</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../commandLine/">Command Line Tools</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../textEditor/">Text Editor</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../gitInstall/">Git</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../python/">Python</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../python-more/">Python Extras</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">R</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#r-and-rstudio">R and RStudio</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#installing-r">Installing R</a></li>
+        
+            <li><a class="toctree-l3" href="#installing-rstudio">Installing RStudio</a></li>
+        
+            <li><a class="toctree-l3" href="#verifying-your-install-of-r">Verifying your Install of R</a></li>
+        
+            <li><a class="toctree-l3" href="#installing-additional-r-packages">Installing Additional R Packages</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../gis/">GIS Tools for R</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../snakemake/">Build Tools</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../sqlite/">SQLite</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../pandoc/">Pandoc</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../contact/">Contact</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../acknowledgement/">Acknowledgements</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Programming Practices for Research in Econonomics</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>R</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="r-and-rstudio">R and RStudio</h1>
+<p>R is a language for statistical computing and graphics.
+R's use in the data science and econometrics community has taken off over recent years and (at a bare minimum) should be considered as an open source replacement to Stata.</p>
+<h2 id="installing-r">Installing R</h2>
+<p>Go to the <a href="https://cran.r-project.org/">R homepage</a> and download the installer for your operating system.</p>
+<p>The current version of R is 3.4</p>
+<h2 id="installing-rstudio">Installing RStudio</h2>
+<p>RStudio provides an easy to work with interface to R, and its format should feel familiar to Stata and Matlab users.</p>
+<p>Download and install RStudio for your operating system from <a href="https://www.rstudio.com/products/rstudio/download3/">here</a>.</p>
+<h2 id="verifying-your-install-of-r">Verifying your Install of R</h2>
+<p>Open a terminal and enter</p>
+<pre><code class="bash">R --version`
+</code></pre>
+
+<p>followed by pressing <code>Return</code>.</p>
+<p>The expected output begins with</p>
+<pre><code class="bash">R version 3.4.1 (2017-06-30) -- &quot;Single Candle&quot;
+Copyright (C) 2017 The R Foundation for Statistical Computing
+</code></pre>
+
+<div class="admonition danger">
+<p class="admonition-title"> Windows PATH Setting redux</p>
+<p>If you want R available from the command line (it is by default for Mac and Linux), we again need to update our PATH settings.</p>
+<p>Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.</p>
+<p>Choose “Edit”.</p>
+<p>If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, add:</p>
+<pre><code>    ;C:\Program Files\R\R-3.4.1\bin
+</code></pre>
+<p>Click on OK as often as needed.</p>
+<p>After you have done this, open a <strong>new</strong> terminal and try and verify your install.</p>
+</div>
+<h2 id="installing-additional-r-packages">Installing Additional R Packages</h2>
+<p>We will need some additional libraries to conduct our statistical analysis. Proceed as follows:</p>
+<ul>
+<li>Open RStudio</li>
+<li>In the <strong>console</strong>, copy and paste the following:</li>
+</ul>
+<pre><code class="r">uzh_progecon &lt;- c(  &quot;reshape&quot;, &quot;rmarkdown&quot;,
+                    &quot;plm&quot;, &quot;Hmisc&quot;, &quot;sandwich&quot;,
+                    &quot;Ecdat&quot;, &quot;stargazer&quot;, &quot;knitr&quot;,
+                    &quot;httr&quot;, &quot;rvest&quot;, &quot;xml2&quot;,
+                    &quot;xtable&quot;,&quot;tidyverse&quot;, &quot;AER&quot;,
+                    &quot;rdd&quot;, &quot;car&quot;, &quot;aod&quot;, &quot;lmtest&quot;,
+                    &quot;lfe&quot;, &quot;nlme&quot;, &quot;lme4&quot;,
+                    &quot;erer&quot;, &quot;margins&quot;)
+
+install.packages(uzh_progecon)
+</code></pre>
+
+<ul>
+<li>Wait until all the packages have been installed and the you are done.<ul>
+<li>It <em>may</em> take a while, so be patient</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../gis/" class="btn btn-neutral float-right" title="GIS Tools for R">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../python-more/" class="btn btn-neutral" title="Python Extras"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../python-more/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../gis/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>
