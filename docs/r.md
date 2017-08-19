@@ -20,7 +20,7 @@ Download and install RStudio for your operating system from [here](https://www.r
 Open a terminal and enter
 
 ```bash
-R --version`
+R --version
 ```
 
 followed by pressing `Return`.
@@ -38,7 +38,7 @@ Copyright (C) 2017 The R Foundation for Statistical Computing
 
     Choose “Edit”.
 
-    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, add:
+    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, copy and paste the following string without spaces at the start or end:
 
             ;C:\Program Files\R\R-3.4.1\bin
     Click on OK as often as needed.

@@ -46,7 +46,7 @@ You should see some additional items - "GitBash" and "TortoiseGit" appear in the
 
     Choose “Edit”.
 
-    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, add:
+    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, copy and paste the following string without spaces at the start or end:
 
            ;C:\Program Files\Git\bin
 
@@ -55,7 +55,7 @@ You should see some additional items - "GitBash" and "TortoiseGit" appear in the
 
 ## Verifying your install
 
-We will need to make Git accessible from the command line. Windows and Mac users will need to follow the steps on the page "Modifying Path Settings." Linux users will already have git accessible from the command line.
+<!-- We will need to make Git accessible from the command line. Windows and Mac users will need to follow the steps on the page "Modifying Path Settings." Linux users will already have git accessible from the command line. -->
 
 To verify your installation, type the following command in a terminal and press the return key:
 

@@ -7,7 +7,7 @@ We will introduce the essentials to get you up and started.
 
 Follow the following steps:
 
-1.  Download GDAL complete
+1.  Download [GDAL complete](http://www.kyngchaos.com/files/software/frameworks/GDAL_Complete-2.1.dmg)
 2.  Doubleclick and install the .dmg file as you are used to on a Mac
 3.  Proceed to `Installing Additonal R Packages`
 

@@ -46,7 +46,7 @@ Make sure that the version numbers are equal to whats above or newer.
 
             ;C:\Users\username\AppData\Local\atom\bin
 
-    to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and the text.
+    to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and preceeding text.
 
     Click on OK as often as needed.
 
