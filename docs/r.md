@@ -59,7 +59,8 @@ uzh_progecon <- c(  "reshape", "rmarkdown",
                     "xtable","tidyverse", "AER",
                     "rdd", "car", "aod", "lmtest",
                     "lfe", "nlme", "lme4",
-                    "erer", "margins")
+                    "erer", "margins",
+                    "multiwayvcov", "RSQLite", "dbplyr")
 
 install.packages(uzh_progecon)
 ```
