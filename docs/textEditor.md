@@ -21,7 +21,7 @@ Go to the [downloads page](https://www.sublimetext.com/3) and download the live 
 
 Go to the [downloads page](https://github.com/atom/atom/releases/tag/v1.9.9) and download the live installer for your operating system.
 
-## Verifying Atom Installation
+## Verifying Atom Installation for Linux and Mac
 
 We want Atom to be available from the command line. For Mac and Linux Users this is the default so if you type the following into the command line:
 
@@ -50,7 +50,7 @@ Make sure that the version numbers are equal to whats above or newer.
 
     Click on OK as often as needed.
 
-    Close your current terminal session, open a new one, and again try `atom --version` + `Return` and you should get a similar output to above.
+    Close your current terminal session, open a new one, and again try `atom .` - the Atom editor will open if this was successful.
 
 ## Additional Packages for Atom
 
