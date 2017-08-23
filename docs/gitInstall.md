@@ -52,10 +52,10 @@ You should see some additional items - "GitBash" and "TortoiseGit" appear in the
            ;C:\Program Files\Git\bin
 
     **On Windows 10 machines:**
-    Click `New` and paste the following string,
+    Click `New` and paste the following string:
 
             C:\Program Files\Git\bin
-    
+
     Click on `OK` as often as needed.
 
 
