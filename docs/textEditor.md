@@ -19,7 +19,24 @@ Go to the [downloads page](https://www.sublimetext.com/3) and download the live 
 
 ## Installing Atom
 
+### Mac and Windows Users
+
 Go to the [downloads page](https://github.com/atom/atom/releases/tag/v1.9.9) and download the live installer for your operating system.
+
+
+## Linux/Ubuntu users
+
+Enter the following information to add a repository that has the Atom installation, then press `Return`:
+
+```bash
+sudo add-apt-repository ppa:webupd8team/atom
+```
+
+Install Atom by entering the following commands into a terminal and then pressing `Return:`
+
+```bash
+sudo apt update; sudo apt install atom
+```
 
 ## Verifying Atom Installation for Linux and Mac
 
