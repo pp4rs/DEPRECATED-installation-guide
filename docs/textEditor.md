@@ -24,7 +24,7 @@ Go to the [downloads page](https://www.sublimetext.com/3) and download the live 
 Go to the [downloads page](https://github.com/atom/atom/releases/tag/v1.9.9) and download the live installer for your operating system.
 
 
-## Linux/Ubuntu users
+### Linux/Ubuntu users
 
 Enter the following information to add a repository that has the Atom installation, then press `Return`:
 
