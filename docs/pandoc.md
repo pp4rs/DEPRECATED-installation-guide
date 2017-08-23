@@ -26,8 +26,12 @@ Ensure you have at least version 1.15.1 installed.
 
     Right-click on Computer. Then go to "Properties" and select the tab "Advanced System Settings". Choose "Environment Variables" and select "Path" from the list of system variables.
 
-    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, copy and paste the following string without spaces at the start or end:
+    Check whether the following path has been added:
 
-            ;C:\Program Files (x86)\Pandoc\
+            ;C:\Users\username\AppData\Local\Pandoc
+
+    If it has not been, and you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, copy and paste the following string without spaces at the start or end:
+
+            ;C:\Users\username\AppData\Local\Pandoc
 
     After you have done this, open a **new** terminal and try and verify your install.
