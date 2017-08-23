@@ -42,15 +42,21 @@ You should see some additional items - "GitBash" and "TortoiseGit" appear in the
 !!! danger "Windows PATH Setting Redux"
     We also want Git from the command line, so we again need to update our PATH settings.
 
-    Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.
+    Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select `Path` from the list of system variables.
 
-    Choose “Edit”.
+    Choose `Edit`.
 
+    **On Windows 7 or 8 machines:**
     If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, copy and paste the following string without spaces at the start or end:
 
            ;C:\Program Files\Git\bin
 
-    Click on OK as often as needed.
+   **On Windows 10 machines:**
+   Click `New` and paste the following string,
+
+            C:\Program Files\Git\bin
+
+    Click on `OK` as often as needed.
 
 
 ## Verifying your install

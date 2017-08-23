@@ -40,15 +40,23 @@ Make sure that the version numbers are equal to whats above or newer.
 !!! danger "Additional Step for Windows:"
     Getting things to run from the command line for us is a bit harder. You will need local administration rights for your computer, but you should have these on your personal computers or those owned by the Department.
 
-    Right-click on Computer. Then go to "Properties" and select the tab "Advanced System Settings". Choose "Environment Variables" and select "Path" from the list of system variables.
+    Right-click on Computer. Then go to "Properties" and select the tab "Advanced System Settings". Choose "Environment Variables" and select `Path` from the list of system variables.
 
-    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, choose “Edit” and append the following (i.e., do not overwrite the previous value) modifying the following string, with your relevant `username` *should* work:
+    If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, choose `Edit.`
+
+    **On Windows 7 or 8 machines:**
+     Append the following (i.e., do not overwrite the previous value) modifying the string, with your relevant `username`:
 
             ;C:\Users\username\AppData\Local\atom\bin
 
     to the variable value – make sure the rest remains as it is and do not include spaces between the ";" and preceeding text.
 
-    Click on OK as often as needed.
+    **On Windows 10 machines:**
+    Click `New` and paste the following string, modifying the `username`
+
+            C:\Users\username\AppData\Local\atom\bin
+
+    Click on `OK` as often as needed.
 
     Close your current terminal session, open a new one, and again try `atom .` - the Atom editor will open if this was successful.
 
