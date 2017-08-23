@@ -17,7 +17,7 @@ You should see the following information returned:
 
 *   Windows users:
 ```bash
-Python 3.6.2 :: Anaconda 4.4.0 (64-bit)
+Python 3.6.1 :: Anaconda 4.4.0 (64-bit)
 ```
 *   Linux/Ubuntu users:
 ```bash
@@ -25,5 +25,5 @@ Python 3.6.2 :: Anaconda custom (64-bit)
 ```
 *   Mac users:
 ```bash
-Python 3.6.2 | Anaconda 4.4.0 (x86_64)
+Python 3.6.1 | Anaconda 4.4.0 (x86_64)
 ```

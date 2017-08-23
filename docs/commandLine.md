@@ -39,7 +39,7 @@ A command line interface comes already installed with OSX.
 
 You will need to install some other software from the terminal thoughout the course, so it will be useful to install some additional "command line tools" now:
 
-* First we want to install X-code command line tools. Open a terminal by using the `Cmd + T` shortcut and then copy and paste the following
+*   First we want to install X-code command line tools. Open a terminal by searching for it with spotlight, `cmd + spacebar` then type terminal and press `Return` when it appears. Then, copy and paste the following
 
 ```bash
 xcode-select --install
