@@ -56,7 +56,7 @@ We will need some additional libraries to conduct our GIS analysis. Proceed as f
 
 ```r
 uzh_gistools <- c("rgeos", "ggmap", "sf",
-                    "sp","raster"  "tmaptools",
+                    "sp", "raster", "tmaptools",
                     "rgdal", "gdalUtils", "mapview", "tmap")
 
 install.packages(uzh_gistools)
