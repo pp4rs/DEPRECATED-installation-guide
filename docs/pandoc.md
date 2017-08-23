@@ -8,6 +8,8 @@ We do not actively teach how to use Pandoc in the course - but we will utilize i
 ## Installation
 
 *   Go to the [Pandoc Homepage](https://pandoc.org/) and follow the installation instructions for your operating system.
+*   *Linux/Ubuntu users:* alternatively `sudo apt install pandoc` will install from the command lines
+
 
 ## Verify Your Install
 
