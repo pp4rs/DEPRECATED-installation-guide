@@ -180,8 +180,11 @@ For example, it readily builds PDFs with latex, and markdown - both of which are
 <p class="admonition-title"> Windows PATH Setting redux</p>
 <p>Because we want Pandoc available from the command line (it is by default for Mac and Linux), we again need to update our PATH settings.</p>
 <p>Right-click on Computer. Then go to "Properties" and select the tab "Advanced System Settings". Choose "Environment Variables" and select "Path" from the list of system variables.</p>
-<p>If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, copy and paste the following string without spaces at the start or end:</p>
-<pre><code>    ;C:\Program Files (x86)\Pandoc\
+<p>Check whether the following path has been added:</p>
+<pre><code>    ;C:\Users\username\AppData\Local\Pandoc
+</code></pre>
+<p>If it has not been, and you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, copy and paste the following string without spaces at the start or end:</p>
+<pre><code>    ;C:\Users\username\AppData\Local\Pandoc
 </code></pre>
 <p>After you have done this, open a <strong>new</strong> terminal and try and verify your install.</p>
 </div>
