@@ -197,13 +197,19 @@ You should see some additional items - "GitBash" and "TortoiseGit" appear in the
 <div class="admonition danger">
 <p class="admonition-title">Windows PATH Setting Redux</p>
 <p>We also want Git from the command line, so we again need to update our PATH settings.</p>
-<p>Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select "Path" from the list of system variables.</p>
-<p>Choose “Edit”.</p>
-<p>If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, copy and paste the following string without spaces at the start or end:</p>
+<p>Right-click on Computer. Then go to "Properties" and select the tab "Advanced System settings". Choose "Environment Variables" and select <code>Path</code> from the list of system variables.</p>
+<p>Choose <code>Edit</code>.</p>
+<p><strong>On Windows 7 or 8 machines:</strong>
+If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, modifying the following string, copy and paste the following string without spaces at the start or end:</p>
 <pre><code>   ;C:\Program Files\Git\bin
 </code></pre>
-<p>Click on OK as often as needed.</p>
 </div>
+<p><strong>On Windows 10 machines:</strong>
+   Click <code>New</code> and paste the following string,</p>
+<pre><code>        C:\Program Files\Git\bin
+
+Click on `OK` as often as needed.
+</code></pre>
 <h2 id="verifying-your-install">Verifying your install</h2>
 <!-- We will need to make Git accessible from the command line. Windows and Mac users will need to follow the steps on the page "Modifying Path Settings." Linux users will already have git accessible from the command line. -->
 
