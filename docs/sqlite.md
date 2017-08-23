@@ -13,15 +13,12 @@ Its time to go back to the **setup-x86_64.exe** we told you not to delete. We wi
 Proceed as follows:
 
 *   Click through the installation until you arrive at the page "Select packages."
+*   Change 'View' from `Pending` to `Not Installed`
 *   Type `sqlite` into the search function and wait for the results to be filtered.
-*   Click the '+' next to "Database" and then find the following lines:
+*   Find the following lines:
     +   libsqlite3_0
     +   sqlite3
-        *   Then click on the word 'Skip.' located next to each of these. 'Skip' should then be replaced with some numbers (the version which we will install)
-*   Click the '+' next to "Ruby" and then click on 'Skip' next to:
-    *   ruby-sqlite3
-    *   ruby-sqlite-doc
-        *   The version numbers should again appear.
+*   For each line, click on the word 'Skip.' located next to each of these. 'Skip' should then be replaced with some numbers (the version which we will install)
 *   Now click on "Next" in the bottom right corner and continue accepting all options until the installation is complete.
 
 !!! success "Partial Installation with Cygwin"
