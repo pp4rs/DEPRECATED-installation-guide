@@ -48,7 +48,7 @@ xcode-select --install
 * Second,  install Homebrew by opening a terminal and pasting the following command:
 
 ```bash
-ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 * To verify that Homebrew installed correctly, enter the following into your terminal
