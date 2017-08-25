@@ -24,6 +24,11 @@ Python 3.6.1 :: Anaconda 4.4.0 (64-bit)
 Python 3.6.2 :: Anaconda custom (64-bit)
 ```
 *   Mac users:
+you may get this:
 ```bash
-Python 3.6.1 | Anaconda 4.4.0 (x86_64)
+Python 3.6.1 |  Anaconda 4.4.0 (x86_64)
+```
+or this:
+```bash
+Python 3.6.1 ::  Anaconda 4.4.0 (x86_64)
 ```
