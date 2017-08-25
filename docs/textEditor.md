@@ -96,7 +96,6 @@ For this course, please install the following packages:
 *   autocomplete-r
 *   autocomplete-python
 *   autoflow
-*   hydrogen
 *   language-sql
 *   language-r
 *   linter
