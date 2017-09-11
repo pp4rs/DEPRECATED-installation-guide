@@ -1,4 +1,4 @@
-# Web Scraping inside a Browser
+# Web Scraping Using an Automated Browser
 
 Sometimes when we scrape the web, we need to automate our computer to open a web browser to gather information from each page.
 This is especially true when the site we want to scrape has content that is loaded dynamically with javascript.
@@ -9,6 +9,32 @@ We will install two packages to help us here:
 2.  Phantomjs
 
 Installing most of this stuff is operating system specific.
+
+## Windows Users
+
+### Chromedriver
+
+*   Install Google Chrome from [here](https://www.google.com/chrome/browser/desktop/index.html)
+*   Download the windows version of Chromedriver from [here](https://chromedriver.storage.googleapis.com/index.html?path=2.31/).
+*   Extract the contents from the zip file, and place them in a new directory `C:\chromedriver`
+*   Add the directory `C:\chromedriver` to your PATH.
+*   If this went successfully, open a new Cygwin session, and enter `chromedriver --version`, you should get output that looks like `ChromeDriver 2.3X.XX`
+
+
+### Phantomjs
+
+*   Click [here](http://phantomjs.org/download.html) and go to the Windows download section. Download the zip file for version 2.1.1.
+*   Right click on the downloaded phantomJs zip file to Extract All
+*   Copy all the contents located in phantomjs-X.X.X-windows
+*   Create a new directory `C:\PhantomJs\bin\phantomjs`
+*   Paste the contents on the extracted phantomjs-X.X.X-windows directory here
+*   Add the directory, `C:\PhantomJs\bin\phantomjs`, to your PATH like we have done before.
+*   If this worked succesfully open a new Cygwin session, and enter `phantomjs --version` should return the version `2.1.1`
+
+
+!!! tip "Hat-tip"
+    We borrowed liberally from [Joe Coltantonio](https://www.joecolantonio.com/2014/10/14/how-to-install-phantomjs/) for instructions on installing Phantomjs.
+
 
 ## Linux Users
 
