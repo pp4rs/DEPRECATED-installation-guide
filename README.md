@@ -1,18 +1,11 @@
-# ReadMe Info for pp4rs Course Installation Guide
+# Module:  Installation Guide for Programming Practices for Research Studnets
 
-This is the source repository for the Installation Guide for Programming Practices for Research in Economics.
+## Meta-Information
 
-The website is currently hosted [here](https://pp4rs.githib.io/installation-guide).
-
-
-#### Author information (the authors)
-
-* Lachlan Deer: @lachlandeer
-* Adrian Etter: @eydrian
-* Julian Langer: @julianlanger
-* Max Winkler: @m-winkler
-
-Alternatively, email us at: programming 'AT' econ 'DOT' uzh 'DOT' ch
+*   Module Maintainer: Lachlan Deer (`@lachlandeer`)
+*   Course: [Programming Practices for Research in Economics](https://github.com/pp4rs)
+*   Institute: Dept of Economics, Uni Zurich
+*   Current Version: [Fall 2017 edition](https://pp4rs.github.io/instalation-guide)
 
 ## Building the Site
 
