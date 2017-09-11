@@ -7,6 +7,7 @@ pages:
 - Git: gitInstall.md
 - Python: python.md
 - Python Extras: python-more.md
+- Webscraping: webscraping_drivers.md
 - R: r.md
 # - Automation with Make: make.md
 # - Automation with Waf: waf.md
