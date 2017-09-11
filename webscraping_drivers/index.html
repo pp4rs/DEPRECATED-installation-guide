@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Webscraping - Programming Practices for Research in Econonomics</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Webscraping";
+    var mkdocs_page_input_path = "webscraping_drivers.md";
+    var mkdocs_page_url = "/webscraping_drivers/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Programming Practices for Research in Econonomics</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Getting Started</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../commandLine/">Command Line Tools</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../textEditor/">Text Editor</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../gitInstall/">Git</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../python/">Python</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../python-more/">Python Extras</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Webscraping</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#web-scraping-using-an-automated-browser">Web Scraping Using an Automated Browser</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#mac-users">Mac Users</a></li>
+        
+            <li><a class="toctree-l3" href="#windows-users">Windows Users</a></li>
+        
+            <li><a class="toctree-l3" href="#linux-users">Linux Users</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../r/">R</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../gis/">GIS Tools for R</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../snakemake/">Build Tools</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../sqlite/">SQLite</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../pandoc/">Pandoc</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../contact/">Contact</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../acknowledgement/">Acknowledgements</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Programming Practices for Research in Econonomics</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Webscraping</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="web-scraping-using-an-automated-browser">Web Scraping Using an Automated Browser</h1>
+<p>Sometimes when we scrape the web, we need to automate our computer to open a web browser to gather information from each page.
+This is especially true when the site we want to scrape has content that is loaded dynamically with javascript.</p>
+<p>We will install two packages to help us here:</p>
+<ol>
+<li>Chromedriver</li>
+<li>Phantomjs</li>
+</ol>
+<p>Installing most of this stuff is operating system specific, hence so are the instructions below.</p>
+<h2 id="mac-users">Mac Users</h2>
+<p>Make sure your <code>homebrew</code> package is up-to-date. To do so, open a terminal and enter</p>
+<pre><code>brew update
+</code></pre>
+
+<h3 id="chromedriver">Chromedriver</h3>
+<ul>
+<li>Install via homebrew:</li>
+</ul>
+<pre><code>brew install chromedriver
+</code></pre>
+
+<ul>
+<li>Verify your install, by entering the following in your terminal. The expected output is <code>ChromeDriver 2.3X.X</code></li>
+</ul>
+<pre><code>chromedriver --version
+</code></pre>
+
+<h3 id="phantomjs">Phantomjs</h3>
+<ul>
+<li>Install via homebrew:</li>
+</ul>
+<pre><code>brew install phantomjs
+</code></pre>
+
+<ul>
+<li>Verify your install, by entering the following in your terminal. The expected output is <code>2.1.1</code></li>
+</ul>
+<pre><code>phantomjs --version
+</code></pre>
+
+<h2 id="windows-users">Windows Users</h2>
+<h3 id="chromedriver_1">Chromedriver</h3>
+<ul>
+<li>Install Google Chrome from <a href="https://www.google.com/chrome/browser/desktop/index.html">here</a></li>
+<li>Download the windows version of Chromedriver from <a href="https://chromedriver.storage.googleapis.com/index.html?path=2.31/">here</a>.</li>
+<li>Extract the contents from the zip file, and place them in a new directory <code>C:\chromedriver</code></li>
+<li>Add the directory <code>C:\chromedriver</code> to your PATH.</li>
+<li>If this went successfully, open a new Cygwin session, and enter <code>chromedriver --version</code>, you should get output that looks like <code>ChromeDriver 2.3X.XX</code></li>
+</ul>
+<h3 id="phantomjs_1">Phantomjs</h3>
+<ul>
+<li>Click <a href="http://phantomjs.org/download.html">here</a> and go to the Windows download section. Download the zip file for version 2.1.1.</li>
+<li>Right click on the downloaded phantomJs zip file to Extract All</li>
+<li>Copy all the contents located in phantomjs-X.X.X-windows</li>
+<li>Create a new directory <code>C:\PhantomJs\bin\phantomjs</code></li>
+<li>Paste the contents on the extracted phantomjs-X.X.X-windows directory here</li>
+<li>Add the directory, <code>C:\PhantomJs\bin\phantomjs</code>, to your PATH like we have done before.</li>
+<li>If this worked succesfully open a new Cygwin session, and enter <code>phantomjs --version</code> should return the version <code>2.1.1</code></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Hat-tip</p>
+<p>We borrowed liberally from <a href="https://www.joecolantonio.com/2014/10/14/how-to-install-phantomjs/">Joe Coltantonio</a> for instructions on installing Phantomjs.</p>
+</div>
+<h2 id="linux-users">Linux Users</h2>
+<h3 id="chromedriver_2">Chromedriver</h3>
+<ul>
+<li>Open a terminal session</li>
+<li>Install Google Chrome for Debian/Ubuntu by pasting the following and then pressing <code>Return</code></li>
+</ul>
+<pre><code>sudo apt-get install libxss1 libappindicator1 libindicator7
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+sudo dpkg -i google-chrome*.deb
+sudo apt-get install -f
+</code></pre>
+
+<ul>
+<li>Install <code>xvfb</code> so chrom can run 'headless' by pasting the following and then pressing <code>Return</code></li>
+</ul>
+<pre><code>sudo apt-get install xvfb
+</code></pre>
+
+<ul>
+<li>Install Chromedriver by pasting the following and then pressing <code>Return</code>:</li>
+</ul>
+<pre><code>sudo apt-get install unzip
+
+wget -N http://chromedriver.storage.googleapis.com/2.31/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+chmod +x chromedriver
+
+sudo mv -f chromedriver /usr/local/share/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
+</code></pre>
+
+<ul>
+<li>Your install worked, you should get <code>ChromeDriver 2.31.488763</code> returned if the installation was successful</li>
+</ul>
+<pre><code>chromedriver --version
+</code></pre>
+
+<h3 id="phantomjs_2">Phantomjs</h3>
+<ul>
+<li>Open a terminal and paste the following:</li>
+</ul>
+<pre><code>sudo apt-get install build-essential chrpath libssl-dev libxft-dev \
+libfreetype6-dev libfreetype6 libfontconfig1-dev libfontconfig1 -y
+</code></pre>
+
+<ul>
+<li>Download Phantomjs using your terminal:</li>
+</ul>
+<pre><code>sudo wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
+</code></pre>
+
+<ul>
+<li>Extract the archive:</li>
+</ul>
+<pre><code>sudo tar xvjf phantomjs-2.1.1-linux-x86_64.tar.bz2 -C /usr/local/share/
+</code></pre>
+
+<ul>
+<li>Create a symbolic link</li>
+</ul>
+<pre><code>sudo ln -s /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin/
+</code></pre>
+
+<ul>
+<li>Verify the installation, and you should get <code>2.1.1</code> printed out</li>
+</ul>
+<pre><code>phantomjs --version
+</code></pre>
+
+<div class="admonition tip">
+<p class="admonition-title">Hat-tip</p>
+<p>We borrowed heavily from the guys and girls at Vultr to provide instructions for <a href="https://www.vultr.com/docs/how-to-install-phantomjs-on-ubuntu-16-04">Phantomjs</a>.
+We borrowed quite liberally from Christopher Su to for instructions on <a href="https://christopher.su/2015/selenium-chromedriver-ubuntu/">installing Chrome and Chromedriver</a>.</p>
+</div>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../r/" class="btn btn-neutral float-right" title="R">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../python-more/" class="btn btn-neutral" title="Python Extras"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../python-more/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../r/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>
