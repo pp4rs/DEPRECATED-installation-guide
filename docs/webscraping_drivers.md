@@ -8,7 +8,37 @@ We will install two packages to help us here:
 1.  Chromedriver
 2.  Phantomjs
 
-Installing most of this stuff is operating system specific.
+Installing most of this stuff is operating system specific, hence so are the instructions below.
+
+## Mac Users
+
+Make sure your `homebrew` package is up-to-date. To do so, open a terminal and enter
+
+```
+brew update
+```
+
+### Chromedriver
+
+*   Install via homebrew:
+```
+brew install chromedriver
+```
+*   Verify your install, by entering the following in your terminal. The expected output is `ChromeDriver 2.3X.X`
+```
+chromedriver --version
+```
+
+### Phantomjs
+
+*   Install via homebrew:
+```
+brew install phantomjs
+```
+*   Verify your install, by entering the following in your terminal. The expected output is `2.1.1`
+```
+phantomjs --version
+```
 
 ## Windows Users
 
