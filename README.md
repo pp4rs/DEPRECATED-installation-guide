@@ -1,11 +1,11 @@
-# Module:  Installation Guide for Programming Practices for Research Studnets
+# Module:  Installation Guide for Programming Practices for Research Students
 
 ## Meta-Information
 
 *   Module Maintainer: Lachlan Deer (`@lachlandeer`)
 *   Course: [Programming Practices for Research in Economics](https://github.com/pp4rs)
 *   Institute: Dept of Economics, Uni Zurich
-*   Current Version: [Fall 2017 edition](https://pp4rs.github.io/instalation-guide)
+*   Current Version: [Fall 2017 edition](https://pp4rs.github.io/installation-guide)
 
 ## Building the Site
 
