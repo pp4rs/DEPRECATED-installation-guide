@@ -15,6 +15,11 @@ Follow the following steps:
     We borrowed heavily from Nick Eubank's installation guide for 'Spatial Data in R' to assist in the Mac installation.
     Nick's install guide is available [here](http://www.nickeubank.com/wp-content/uploads/2015/10/RGIS1_SpatialDataTypes_part0_setup.html).
 
+!!! bug "rgdal problems with Mac"
+    There were quite a few issues with GDAL and rgdal for Mac users.
+    We found [this](https://stackoverflow.com/questions/34333624/trouble-installing-rgdal) stackoverflow post that seemed to solve most problems.
+    You may find it useful in the problem
+
 ## Linux Users
 
 Follow these steps:
