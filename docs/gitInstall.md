@@ -1,3 +1,7 @@
+<!--
+TODO: Should we add a GIT GUI to installation guide?
+-->
+
 # Installing Git and Setting Up Accounts
 
 Git is a Version Control System (VCS) that has gained a lot of traction among the programming community.
@@ -30,13 +34,14 @@ Follow the steps documented [here](https://git-scm.com/download/linux) to instal
 
 ## Windows Users
 
-Download and install the latest versions of:
+Download and install the latest versions of [msysgit](http://msysgit.github.io)
 
-*   [msysgit](http://msysgit.github.io), and
+<!--, and
 *   [TortoiseGit](http://code.google.com/p/tortoisegit/wiki/Download)
+-->
 
 After installing these programs use Windows Explorer to go to a folder that contains some documents (any folder) and right click on it.
-You should see some additional items - "GitBash" and "TortoiseGit" appear in the context menu upon right-clicking.
+You should see some additional items - "GitBash" appear in the context menu upon right-clicking.
 
 
 !!! danger "Windows PATH Setting Redux"
@@ -69,6 +74,6 @@ To verify your installation, type the following command in a terminal and press 
 
 You should get an output that looks like:
 
-        git version 2.7.4
+        git version 2.18.0
 
-Ensure that you have a version greater than `2.7.1` installed.
+Ensure that you have a version greater than `2.15.0` installed.
