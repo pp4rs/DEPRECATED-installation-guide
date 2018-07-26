@@ -169,7 +169,11 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="installing-git-and-setting-up-accounts">Installing Git and Setting Up Accounts</h1>
+                <!--
+TODO: Should we add a GIT GUI to installation guide?
+-->
+
+<h1 id="installing-git-and-setting-up-accounts">Installing Git and Setting Up Accounts</h1>
 <p>Git is a Version Control System (VCS) that has gained a lot of traction among the programming community.
 We will want to use version control to keep track of the files we write, and the changes we make to them.</p>
 <h2 id="account-creation">Account Creation</h2>
@@ -192,13 +196,13 @@ Also install the command-line auto-completion script, as described <a href="http
 <h2 id="linux-users">Linux Users</h2>
 <p>Follow the steps documented <a href="https://git-scm.com/download/linux">here</a> to install on Linux from the terminal.</p>
 <h2 id="windows-users">Windows Users</h2>
-<p>Download and install the latest versions of:</p>
-<ul>
-<li><a href="http://msysgit.github.io">msysgit</a>, and</li>
-<li><a href="http://code.google.com/p/tortoisegit/wiki/Download">TortoiseGit</a></li>
-</ul>
+<p>Download and install the latest versions of <a href="http://msysgit.github.io">msysgit</a></p>
+<!--, and
+*   [TortoiseGit](http://code.google.com/p/tortoisegit/wiki/Download)
+-->
+
 <p>After installing these programs use Windows Explorer to go to a folder that contains some documents (any folder) and right click on it.
-You should see some additional items - "GitBash" and "TortoiseGit" appear in the context menu upon right-clicking.</p>
+You should see some additional items - "GitBash" appear in the context menu upon right-clicking.</p>
 <div class="admonition danger">
 <p class="admonition-title">Windows PATH Setting Redux</p>
 <p>We also want Git from the command line, so we again need to update our PATH settings.</p>
@@ -221,9 +225,9 @@ Click <code>New</code> and paste the following string:</p>
 <pre><code>   git --version
 </code></pre>
 <p>You should get an output that looks like:</p>
-<pre><code>    git version 2.7.4
+<pre><code>    git version 2.18.0
 </code></pre>
-<p>Ensure that you have a version greater than <code>2.7.1</code> installed.</p>
+<p>Ensure that you have a version greater than <code>2.15.0</code> installed.</p>
               
             </div>
           </div>
@@ -248,12 +252,12 @@ Click <code>New</code> and paste the following string:</p>
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-      
+	  
         </div>
       </div>
 
     </section>
-
+    
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -267,10 +271,7 @@ Click <code>New</code> and paste the following string:</p>
       
     </span>
 </div>
-    <script>var base_url = '..';</script>
     <script src="../js/theme.js"></script>
-      <script src="../search/require.js"></script>
-      <script src="../search/search.js"></script>
 
 </body>
 </html>
