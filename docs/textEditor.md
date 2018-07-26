@@ -1,12 +1,10 @@
 # Text Editors
 
-A good text editor lies at the heart of any serious programmer's toolkit: It can do almost anything and makes you much more productive. The editors built into each program are generally are not an option (we will find certain cases where you may want to use them).
-
-!!! danger "Updated for 2017"
-    This year we are encouraging all participants to use the text editor [Atom](https://atom.io/).
-    We hope this helps smooth out differences between text editors.
+A good text editor lies at the heart of any serious programmer's toolkit: It can do almost anything and makes you much more productive.
+The editors built into each program are generally are not an option (we will find certain cases where you may want to use them).
 
 Please download, install it along with the necessary packages and stick with it for at least the duration of the course and assignment to get a feel for how it works.
+
 There is a slight learning curve, but soon you hopefully be wondering why no-one forced you to do this before!
 We should get you past the steepest part of the learning curve during the course itself, so we don't anticipate you struggling on your own.
 
