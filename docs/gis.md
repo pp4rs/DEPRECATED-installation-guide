@@ -1,4 +1,4 @@
-# Geographical data with R
+# Geodata processing with Arc using Python 3
 
 R has many tools to deal with Geo-spatial data.
 We will introduce the essentials to get you up and started.
