@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>GIS Tools for R - Programming Practices for Research in Econonomics</title>
+  <title>GIS Tools with Python - Programming Practices for Research in Econonomics</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -17,7 +17,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "GIS Tools for R";
+    var mkdocs_page_name = "GIS Tools with Python";
     var mkdocs_page_input_path = "gis.md";
     var mkdocs_page_url = "/gis/";
   </script>
@@ -89,22 +89,10 @@
           
             <li class="toctree-l1 current">
 		
-    <a class="current" href="./">GIS Tools for R</a>
+    <a class="current" href="./">GIS Tools with Python</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#geodata-processing-with-arc-using-python-3">Geodata processing with Arc using Python 3</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l3" href="#mac-users">Mac Users</a></li>
-        
-            <li><a class="toctree-l3" href="#linux-users">Linux Users</a></li>
-        
-            <li><a class="toctree-l3" href="#windows-users">Windows Users</a></li>
-        
-            <li><a class="toctree-l3" href="#installing-additional-r-packages">Installing Additional R Packages</a></li>
-        
-        </ul>
+    <li class="toctree-l2"><a href="#geospatial-data-with-arcgis-using-python-3">Geospatial data with ArcGis using Python 3</a></li>
     
 
     </ul>
@@ -157,7 +145,7 @@
     
       
     
-    <li>GIS Tools for R</li>
+    <li>GIS Tools with Python</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -167,76 +155,16 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="geodata-processing-with-arc-using-python-3">Geodata processing with Arc using Python 3</h1>
-<p>R has many tools to deal with Geo-spatial data.
-We will introduce the essentials to get you up and started.</p>
-<h2 id="mac-users">Mac Users</h2>
-<p>Follow the following steps:</p>
-<ol>
-<li>Download <a href="http://www.kyngchaos.com/files/software/frameworks/GDAL_Complete-2.1.dmg">GDAL complete</a></li>
-<li>Doubleclick and install the .dmg file as you are used to on a Mac</li>
-<li>Proceed to <code>Installing Additonal R Packages</code></li>
-</ol>
-<div class="admonition tip">
-<p class="admonition-title">Hat-tip</p>
-<p>We borrowed heavily from Nick Eubank's installation guide for 'Spatial Data in R' to assist in the Mac installation.
-Nick's install guide is available <a href="http://www.nickeubank.com/wp-content/uploads/2015/10/RGIS1_SpatialDataTypes_part0_setup.html">here</a>.</p>
-</div>
-<h2 id="linux-users">Linux Users</h2>
-<p>Follow these steps:</p>
-<ol>
-<li>
-<p>In your terminal type the following, then hit <code>Return</code></p>
-<pre><code>sudo add-apt-repository ppa:ubuntugis/ppa &amp;&amp; sudo apt-get update
-</code></pre>
-</li>
-<li>
-<p>Hit enter when prompted, then enter the following before again hitting the <code>Return</code> key:</p>
-<pre><code>sudo apt-get install gdal-bin
-</code></pre>
-</li>
-<li>
-<p>To verify after installation, try entering <code>ogrinfo</code> into the a terminal then press <code>Return</code>. If the installation was successful, you will see something like this:</p>
-<pre><code>Usage: ogrinfo [--help-general] [-ro] [-q] [-where restricted_where]
-               [-spat xmin ymin xmax ymax] [-fid fid]
-               [-sql statement] [-al] [-so] [-fields={YES/NO}]
-               [-geom={YES/NO/SUMMARY}][--formats]
-               datasource_name [layer [layer ...]]
-</code></pre>
-</li>
-<li>
-<p>Proceed to <code>Installing Additonal R Packages</code></p>
-</li>
-</ol>
-<div class="admonition tip">
-<p class="admonition-title">Hat-tip</p>
-<p>We borrowed heavily from Sara Safavi to learn how to install <code>GDAL</code> on Ubuntu.
-She provides an install guide <a href="http://www.sarasafavi.com/installing-gdalogr-on-ubuntu.html">here</a>.</p>
-</div>
-<h2 id="windows-users">Windows Users</h2>
-<div class="admonition success">
-<p class="admonition-title">Success</p>
-<p>For once, Windows is ahead of the game. We only need to install R packages!</p>
-</div>
-<h2 id="installing-additional-r-packages">Installing Additional R Packages</h2>
-<p>We will need some additional libraries to conduct our GIS analysis. Proceed as follows:</p>
-<ul>
-<li>Open RStudio</li>
-<li>In the <strong>console</strong>, copy and paste the following:</li>
-</ul>
-<pre><code class="r">uzh_gistools &lt;- c(&quot;rgeos&quot;, &quot;ggmap&quot;, &quot;sf&quot;,
-                    &quot;sp&quot;, &quot;raster&quot;, &quot;tmaptools&quot;,
-                    &quot;rgdal&quot;, &quot;gdalUtils&quot;, &quot;mapview&quot;, &quot;tmap&quot;)
-
-install.packages(uzh_gistools)
-</code></pre>
-
-<div class="admonition tip">
-<p class="admonition-title">rgdal problems with Mac</p>
-<p>There were quite a few issues with GDAL and rgdal for Mac users.
-We found <a href="https://stackoverflow.com/questions/34333624/trouble-installing-rgdal">this</a> stackoverflow post that seemed to solve most problems.
-You may find it useful in the problem</p>
-</div>
+                <h1 id="geospatial-data-with-arcgis-using-python-3">Geospatial data with ArcGis using Python 3</h1>
+<p>Unfortunately, Arc is not open source, so for this class we will use a free trial version of ArcGis Pro.
+You need to have a windows environment for Arc if you are on a Mac or Linux OS.
+The following pdf describes how to get the 21-day trial version onto your local machine
+step by step with pictures. The trial version will be good to go for the class if you install anytime after August 15th.</p>
+<p>If you are already using ArcMap, please still install ArcGis Pro to follow along in class. Commands differ slightly
+between these two versions, but after the lecture you should be able to implement everything in ArcMap as well.</p>
+<p>Go to the ArcGis trial page <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/trial">here</a>
+and then follow the steps outlined in the pdf:</p>
+<p>Click for the step-by-step installation pdf <a href="../instructions_arc.pdf">here</a>.</p>
               
             </div>
           </div>
