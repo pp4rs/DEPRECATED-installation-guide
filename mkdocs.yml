@@ -11,7 +11,7 @@ pages:
 - R: r.md
 # - Automation with Make: make.md
 # - Automation with Waf: waf.md
-- GIS Tools for R: gis.md
+- GIS Tools with Python: gis.md
 - Build Tools: snakemake.md
 - SQLite: sqlite.md
 - Pandoc: pandoc.md
