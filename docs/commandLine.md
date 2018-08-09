@@ -14,9 +14,9 @@ So that we can work as closely as possible to the Mac and Linux users we will in
 ```bash
 userName@computerName: ~$
 ```
-i.e. for Lachlan he sees:
+i.e. for Uli he sees:
 ```bash
-lachlan@lachlan-ThinkPad-T460s: ~$
+ubergmann@dhcp-wlan-uzh-10-12-130-xxx: ~$
 ```
 We will explain what all this means in the first day or so of the course.
 
@@ -58,6 +58,47 @@ brew doctor
 And you should see the following output
 ```bash
 Your system is ready to brew
+```
+
+* Now to use the current R version 3.5.1, we want to make sure you have some basic system tools that some packages require. Let's (re)install them real quick. First `libxml2`:
+
+```bash
+brew reinstall libxml2
+```
+If you system tells you that it is not yet installed, then try
+
+```bash
+brew install libxml2
+```
+
+We also want to link this so that terminal finds it later:
+
+```bash
+echo 'export PATH="/usr/local/opt/libxml2/bin:$PATH"' >> ~/.bash_profile
+```
+
+* Second, we also need `openssl`:
+
+```bash
+brew reinstall openss
+```
+
+Again, if it is already installed, then use instead
+
+```bash
+brew install openss
+```
+
+* Finally, we need `libgit2`:
+
+```bash
+brew install libgit2
+```
+
+If terminal tells you it is not yet installed, then go for
+
+```bash
+brew reinstall libgit2
 ```
 
 ## Linux Users
