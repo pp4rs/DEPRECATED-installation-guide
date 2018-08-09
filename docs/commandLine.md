@@ -60,12 +60,12 @@ And you should see the following output
 Your system is ready to brew
 ```
 
-* Now to use the current R version 3.5.1, we want to make sure you have some basic system tools that some packages require. Let's (re)install them real quick. First `libxml2`:
+* Now we can use homebrew to easily install software. To use the current R version 3.5.1, we want to make sure you have some basic system tools that some packages require. Let's (re)install them real quick. First `libxml2`:
 
 ```bash
 brew reinstall libxml2
 ```
-If you system tells you that it is not yet installed, then try
+If you system tells you that it is not yet installed, then try instead
 
 ```bash
 brew install libxml2
@@ -80,13 +80,13 @@ echo 'export PATH="/usr/local/opt/libxml2/bin:$PATH"' >> ~/.bash_profile
 * Second, we also need `openssl`:
 
 ```bash
-brew reinstall openss
+brew reinstall openssl
 ```
 
 Again, if it is already installed, then use instead
 
 ```bash
-brew install openss
+brew install openssl
 ```
 
 * Finally, we need `libgit2`:
