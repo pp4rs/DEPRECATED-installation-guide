@@ -32,5 +32,5 @@ into a terminal and pressing `Return.`
 
 The expected output is the current version on the software, which should be greater than
 ```bash
-3.11.2
+5.2.2
 ```
