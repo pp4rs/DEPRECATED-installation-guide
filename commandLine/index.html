@@ -181,8 +181,8 @@
 <pre><code class="bash">userName@computerName: ~$
 </code></pre>
 
-<p>i.e. for Lachlan he sees:</p>
-<pre><code class="bash">lachlan@lachlan-ThinkPad-T460s: ~$
+<p>i.e. for Uli he sees:</p>
+<pre><code class="bash">ubergmann@dhcp-wlan-uzh-10-12-130-xxx: ~$
 </code></pre>
 
 <p>We will explain what all this means in the first day or so of the course.</p>
@@ -229,6 +229,40 @@
 
 <p>And you should see the following output</p>
 <pre><code class="bash">Your system is ready to brew
+</code></pre>
+
+<ul>
+<li>Now we can use homebrew to easily install software. To use the current R version 3.5.1, we want to make sure you have some basic system tools that some packages require. Let's (re)install them real quick. First <code>libxml2</code>:</li>
+</ul>
+<pre><code class="bash">brew reinstall libxml2
+</code></pre>
+
+<p>If you system tells you that it is not yet installed, then try instead</p>
+<pre><code class="bash">brew install libxml2
+</code></pre>
+
+<p>We also want to link this so that terminal finds it later:</p>
+<pre><code class="bash">echo 'export PATH=&quot;/usr/local/opt/libxml2/bin:$PATH&quot;' &gt;&gt; ~/.bash_profile
+</code></pre>
+
+<ul>
+<li>Second, we also need <code>openssl</code>:</li>
+</ul>
+<pre><code class="bash">brew reinstall openssl
+</code></pre>
+
+<p>Again, if it is already installed, then use instead</p>
+<pre><code class="bash">brew install openssl
+</code></pre>
+
+<ul>
+<li>Finally, we need <code>libgit2</code>:</li>
+</ul>
+<pre><code class="bash">brew install libgit2
+</code></pre>
+
+<p>If terminal tells you it is not yet installed, then go for</p>
+<pre><code class="bash">brew reinstall libgit2
 </code></pre>
 
 <h2 id="linux-users">Linux Users</h2>
