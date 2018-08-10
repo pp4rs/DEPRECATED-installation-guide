@@ -8,6 +8,7 @@ Follow the steps provided on the website.
 During the installation you will be asked whether you want Anaconda Python to be added to your PATH. **Click yes!**
 
 To verify that the correct version of Python has been installed and was made available in your PATH settings, open a **new** terminal interface and enter:
+
 ```bash
 python --version
 ```
@@ -32,3 +33,10 @@ or this:
 ```bash
 Python 3.6.1 ::  Anaconda 4.4.0 (x86_64)
 ```
+
+!!! tip "Python 2 vs Python 3"
+    Python 2 and 3 are incompatible in syntax. If you had Python 2 previously installed on your machine, you have seen `Python 2.x.x` above, try typing
+
+    ```python3 --version```
+
+    instead. Now you should see a message like the one above and are good to go for the course.
