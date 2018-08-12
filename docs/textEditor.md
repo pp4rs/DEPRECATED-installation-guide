@@ -36,7 +36,7 @@ Install Atom by entering the following commands into a terminal and then pressin
 sudo apt update; sudo apt install atom
 ```
 
-## Verifying Atom Installation for Linux and Mac
+## Verifying Atom Installation
 
 We want Atom to be available from the command line. For Mac and Linux Users this is the default so if you type the following into the command line:
 
@@ -50,7 +50,7 @@ Electron: 2.0.5
 Chrome  : 61.0.3163.100
 Node    : 8.9.3
 ```
-Make sure that the version numbers are equal to whats above or newer.
+Make sure that the version numbers are above `1.26.x` or newer.
 
 !!! danger "Additional Step for Windows:"
     Getting things to run from the command line for us is a bit harder. You will need local administration rights for your computer, but you should have these on your personal computers or those owned by the Department.
