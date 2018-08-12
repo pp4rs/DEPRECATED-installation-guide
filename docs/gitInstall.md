@@ -32,6 +32,10 @@ Also install the command-line auto-completion script, as described [here](https:
 
 Follow the steps documented [here](https://git-scm.com/download/linux) to install on Linux from the terminal.
 
+!!! danger
+    To install system software using `apt-get`, you need `Super User` rights. So please add `sudo` in front of each `apt-get` command in the document above, like so: ```sudo apt-get install git```
+
+
 ## Windows Users
 
 Download and install the latest versions of [msysgit](http://msysgit.github.io)
@@ -70,10 +74,14 @@ You should see some additional items - "GitBash" appear in the context menu upon
 
 To verify your installation, type the following command in a terminal and press the return key:
 
+```bash
        git --version
+```
 
 You should get an output that looks like:
 
+```bash
         git version 2.18.0
+```
 
 Ensure that you have a version greater than `2.15.0` installed.
