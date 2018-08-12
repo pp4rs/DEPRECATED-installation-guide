@@ -99,6 +99,11 @@
           
             <li class="toctree-l1">
 		
+    <a class="" href="../snakemake/">Build Tools</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
     <a class="" href="../webscraping_drivers/">Webscraping</a>
 	    </li>
           
@@ -110,16 +115,6 @@
             <li class="toctree-l1">
 		
     <a class="" href="../gis/">GIS Tools with Python</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../snakemake/">Build Tools</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../sqlite/">SQLite</a>
 	    </li>
           
             <li class="toctree-l1">
@@ -195,6 +190,10 @@ You will need to setup accounts for each of these: -->
 Also install the command-line auto-completion script, as described <a href="https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Auto-Completion">here</a>.</p>
 <h2 id="linux-users">Linux Users</h2>
 <p>Follow the steps documented <a href="https://git-scm.com/download/linux">here</a> to install on Linux from the terminal.</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>To install system software using <code>apt-get</code>, you need <code>Super User</code> rights. So please add <code>sudo</code> in front of each <code>apt-get</code> command in the document above, like so: <code>sudo apt-get install git</code></p>
+</div>
 <h2 id="windows-users">Windows Users</h2>
 <p>Download and install the latest versions of <a href="http://msysgit.github.io">msysgit</a></p>
 <!--, and
@@ -222,11 +221,13 @@ Click <code>New</code> and paste the following string:</p>
 <!-- We will need to make Git accessible from the command line. Windows and Mac users will need to follow the steps on the page "Modifying Path Settings." Linux users will already have git accessible from the command line. -->
 
 <p>To verify your installation, type the following command in a terminal and press the return key:</p>
-<pre><code>   git --version
+<pre><code class="bash">       git --version
 </code></pre>
+
 <p>You should get an output that looks like:</p>
-<pre><code>    git version 2.18.0
+<pre><code class="bash">        git version 2.18.0
 </code></pre>
+
 <p>Ensure that you have a version greater than <code>2.15.0</code> installed.</p>
               
             </div>
