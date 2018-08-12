@@ -1,9 +1,40 @@
-# Acknowledgements
+## Acknowledgements
 
-This course and installation guide is designed after and borrows a lot from:
+This module is based on the 2016 and 2017 versions of the course:
 
-* [Effective Programming Practices for Economists](http://www.wiwi.uni-bonn.de/gaudecker/teaching.html#effective-programming-practices-for-economists-msc-phd), a course by [Hans-Martin von Gaudecker](http://www.wiwi.uni-bonn.de/gaudecker/index.html).
-* [A Guide to Setting Up a Python Environment for Economics Research](http://hmgaudecker.github.io/econ-python-environment/), a website and installation guide by [Hans-Martin von Gaudecker](http://www.wiwi.uni-bonn.de/gaudecker/index.html).
-* [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/lessons/).
+* [`Programming Practices For Economists`](pp4rs.github.io/2017-uzh), by Lachlan Deer, Adrian Etter, Julian Langer & Max Winkler
 
-The material from above sources is made available under a [Creative Commons By Attribution Share Alike License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), as is this installation guide.
+It is designed after and borrows a lot from:
+
+* [`Effective Programming Practices for Economists`](http://wiwi.uni-bonn.de/gaudecker/teaching/prog_econ_slides.html#prog-econ-slides), a course by [Hans-Martin von Gaudecker](http://wiwi.uni-bonn.de/gaudecker/index.html)
+* Software Carpentry's [`Managing Software Research Projects`](https://swcarpentry.github.io/managing-research-software-projects/) lesson
+
+`Guiding Principles` borrows a lot from the paper
+
+* Wilson G, Aruliah DA, Brown CT, Chue Hong NP, Davis M, Guy RT, et al. (2014) [`Best Practices for Scientific Computing`](https://doi.org/10.1371/journal.pbio.1001745). PLoS Biol 12(1): e1001745.
+
+## License
+
+Material is licensed under a CC-BY-NC-SA license. Further information is available at our [`course homepage`](pp4rs.github.io/2018-uzh)
+
+Suggested Citation:
+
+* Ulrich Bergmann, Lachlan Deer, Adrian Etter, Julian Langer, Ursina Schaede, Dora Simon, Max Winkler, Carlo Zanella & Christian Zund, 2018, `Introduction and Motivation`, Programming Practices for Research in Economics, University of Zurich
+
+
+## Programming Practices Team
+
+Programming Practices for Research in Economics was created by
+
+* Lachlan Deer
+* Adrian Etter
+* Julian Langer
+* Max Winkler
+
+at the Department of Economics, University of Zurich in 2016. This is the installation guide for the 2018 edition, conducted by
+
+* Ulrich Bergmann
+* Ursina Schaede
+* Dora Simon
+* Carlo Zanella
+* Christian Zünd
