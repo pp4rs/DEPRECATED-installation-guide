@@ -103,4 +103,17 @@ brew reinstall libgit2
 
 ## Linux Users
 
-Nothing needs to be done. You can open a terminal session with `Crtl` + `Alt` + `T`.
+To use the current R version, wee need to install some system tools. For this open a terminal session with `Crtl` + `Alt` + `T`.
+
+* Now copy the following command into terminal and press `Enter`:
+
+```bash
+  sudo apt-get install libcurl4-gnutls-dev librtmp-dev
+```
+
+* After the installation succeeded successfully repeat this one-by-one with the following two other commands:
+
+```bash
+sudo apt-get install libxml2-dev
+sudo apt-get install libssl-dev
+```
