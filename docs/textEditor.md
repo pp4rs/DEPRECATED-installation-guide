@@ -99,6 +99,7 @@ For this course, please install the following packages:
 *   linter-lintr
 *   tablr
 *   platformio-ide-terminal
+*   project plus
 
 If during the installation of a package Atom asks to install dependencies, always choose to accept.
 
