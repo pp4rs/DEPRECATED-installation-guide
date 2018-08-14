@@ -20,7 +20,7 @@ brew update
 
 *   Install via homebrew:
 ```
-brew install chromedriver
+brew cask install chromedriver
 ```
 *   Verify your install, by entering the following in your terminal. The expected output is `ChromeDriver 2.4X.X`
 ```
