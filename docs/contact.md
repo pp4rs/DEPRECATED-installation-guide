@@ -2,6 +2,20 @@
 
 ## Programming Practices Team
 
+Programming Practices for Research in Economics was created by
+
+* Lachlan Deer
+* Adrian Etter
+* Julian Langer
+* Max Winkler
+
+at the Department of Economics, University of Zurich in 2016. This installation guide is for the 2018 edition, conducted by
+
+* Ulrich Bergmann
+* Ursina Schaede
+* Dora Simon
+* Carlo Zanella
+* Christian Zünd
 Programming Practices for Economics Research was created by
 
 * Lachlan Deer
@@ -9,7 +23,6 @@ Programming Practices for Economics Research was created by
 * Julian Langer
 * Max Winkler
 
-at the Department of Economics, University of Zurich. This installation guide is for the 2017 edition conducted by the original course creators.
 
 ## Questions or Comments?
 
