@@ -7,7 +7,7 @@ R's use in the data science and econometrics community has taken off over recent
 
 Go to the [R homepage](https://cran.r-project.org/) and download the installer for your operating system.
 
-The current version of R is 3.4
+The current version for Mac and Windows is `R version 3.5.1` and for Linux it is `R version 3.4.1`
 
 ## Installing RStudio
 
@@ -23,9 +23,13 @@ Open a terminal and enter:
 R --version
 ```
 
-followed by pressing `Return`.
+followed by pressing `Return`. The expected return begins with:
 
-The current version for Mac and Windows is `R version 3.5.1` and for Linux it is `R version 3.4.1` output begins with:
+```bash
+R version 3.x.1 (201x-xx-xx) -- "Some Funky Name"
+```
+
+You should see the version corresponding to the one chosen on the website.
 
 !!! danger " Windows PATH Setting redux"
     If you want R available from the command line (it is by default for Mac and Linux), we again need to update our PATH settings.
