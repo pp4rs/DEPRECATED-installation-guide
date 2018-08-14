@@ -45,6 +45,8 @@ You will need to install some other software from the terminal thoughout the cou
 xcode-select --install
 ```
 
+If you get an answer that the command line tools are already installed, you can just continue to the next step.
+
 * Second,  install Homebrew by opening a terminal and pasting the following command:
 
 ```bash
@@ -65,11 +67,8 @@ Your system is ready to brew
 ```bash
 brew reinstall libxml2
 ```
-If you system tells you that it is not yet installed, then try instead
 
-```bash
-brew install libxml2
-```
+If you system tells you that it is not yet installed, then try  ```brew install libxml2``` instead.
 
 We also want to link this so that terminal finds it later:
 
@@ -82,12 +81,15 @@ echo 'export PATH="/usr/local/opt/libxml2/bin:$PATH"' >> ~/.bash_profile
 ```bash
 brew reinstall openssl
 ```
+Again, if it is already installed, then use ``` brew install openssl``` instead.
 
-Again, if it is already installed, then use instead
+Again, we need it to link to terminal:
 
-```bash
-brew install openssl
 ```
+echo 'export PATH="/usr/local/opt/openssl/bin:$PATH"' >> ~/.bash_profile
+```
+
+
 
 * Finally, we need `libgit2`:
 
@@ -95,11 +97,7 @@ brew install openssl
 brew install libgit2
 ```
 
-If terminal tells you it is not yet installed, then go for
-
-```bash
-brew reinstall libgit2
-```
+If terminal tells you it is not yet installed, then go for ```brew reinstall libgit2```
 
 ## Linux Users
 
