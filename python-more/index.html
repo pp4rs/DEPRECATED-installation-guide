@@ -161,11 +161,23 @@
 If you're interested in all the packages included, click <a href="https://docs.continuum.io/anaconda/packages/pkg-docs">here</a> and go to the Python 3.6 tab.</p>
 <p>Howevever, you may come across packages that are not installed by default.
 In this case we recommend you use the <code>pip</code> package management tool to install them.</p>
-<p>For this course, we will need the package <code>Selenium</code> as part of the web scraping tool kit we will build up. We install it by entering the following into a terminal:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If your python 3 was found via <code>python3 --version</code> on the previous page, then type <code>pip3</code> instead of <code>pip</code> for all of the following python plugins.</p>
+</div>
+<p>First let us update pip by typing the following into the terminal</p>
+<pre><code class="bash">pip install --upgrade pip
+</code></pre>
+
+<p>For this course, we will need the package <code>Selenium</code> as part of the web scraping tool kit we will build up. First let us install a depency for it via</p>
+<pre><code class="bash">pip install msgpack
+</code></pre>
+
+<p>We then install <code>selenium</code> by entering the following into a terminal:</p>
 <pre><code class="bash">pip install selenium
 </code></pre>
 
-<p><code>pip</code> will then go through and install the package we asked for, and any dependencies.
+<p><code>pip</code> will then go through and install the package we asked for, and any other dependencies.
 If this succeeded, the last line it printed out should be:</p>
 <pre><code>Successfully installed selenium-3.5.0
 </code></pre>

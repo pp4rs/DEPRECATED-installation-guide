@@ -106,7 +106,11 @@
     
         <ul>
         
-            <li><a class="toctree-l3" href="#installation">Installation</a></li>
+            <li><a class="toctree-l3" href="#linux">Linux</a></li>
+        
+            <li><a class="toctree-l3" href="#mac">Mac</a></li>
+        
+            <li><a class="toctree-l3" href="#windows">Windows</a></li>
         
             <li><a class="toctree-l3" href="#verify-your-install">Verify Your Install</a></li>
         
@@ -162,19 +166,28 @@
 <p>Pandoc is an extremely useful 'swiss army knife' for converting between different types of markup languages from the command line.
 For example, it readily builds PDFs with latex, and markdown - both of which are heavily used in academic research.</p>
 <p>We do not actively teach how to use Pandoc in the course - but we will utilize it in some lessons where we produce PDF, Word or HTML output from plain text files.</p>
-<h2 id="installation">Installation</h2>
-<ul>
-<li>Go to the <a href="https://pandoc.org/">Pandoc Homepage</a> and follow the installation instructions for your operating system.</li>
-<li><strong>Linux/Ubuntu users:</strong> alternatively <code>sudo apt install pandoc</code> will install pandoc from the command line</li>
-<li><strong>Mac users:</strong> alternatively <code>brew install pandoc</code> will install pandoc from the command line</li>
-</ul>
+<h2 id="linux">Linux</h2>
+<p>Open a terminal window and type</p>
+<pre><code class="bash">sudo apt install pandoc
+</code></pre>
+
+<p>to install pandoc from the command line</p>
+<h2 id="mac">Mac</h2>
+<p>Open a terminal window and type</p>
+<pre><code class="bash">brew install pandoc
+</code></pre>
+
+<p>to install pandoc from the command line</p>
+<h2 id="windows">Windows</h2>
+<p>Go to the <a href="https://pandoc.org/">Pandoc Homepage</a> and follow the installation instructions for your operating system.</p>
 <h2 id="verify-your-install">Verify Your Install</h2>
 <p>Verify your install by typing the following into a command line:</p>
 <pre><code class="bash">pandoc --version
 </code></pre>
 
 <p>The expected output starts with the following information:</p>
-<pre><code class="bash">pandoc 1.17.2
+<pre><code class="bash">pandoc 1.19.2.1
+
 </code></pre>
 
 <p>Ensure you have at least version 1.15.1 installed.</p>

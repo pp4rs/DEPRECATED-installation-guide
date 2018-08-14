@@ -210,6 +210,7 @@
 <pre><code class="bash">xcode-select --install
 </code></pre>
 
+<p>If you get an answer that the command line tools are already installed, you can just continue to the next step.</p>
 <ul>
 <li>Second,  install Homebrew by opening a terminal and pasting the following command:</li>
 </ul>
@@ -232,10 +233,7 @@
 <pre><code class="bash">brew reinstall libxml2
 </code></pre>
 
-<p>If you system tells you that it is not yet installed, then try instead</p>
-<pre><code class="bash">brew install libxml2
-</code></pre>
-
+<p>If you system tells you that it is not yet installed, then try  <code>brew install libxml2</code> instead.</p>
 <p>We also want to link this so that terminal finds it later:</p>
 <pre><code class="bash">echo 'export PATH=&quot;/usr/local/opt/libxml2/bin:$PATH&quot;' &gt;&gt; ~/.bash_profile
 </code></pre>
@@ -246,8 +244,9 @@
 <pre><code class="bash">brew reinstall openssl
 </code></pre>
 
-<p>Again, if it is already installed, then use instead</p>
-<pre><code class="bash">brew install openssl
+<p>Again, if it is already installed, then use <code>brew install openssl</code> instead.</p>
+<p>Again, we need it to link to terminal:</p>
+<pre><code>echo 'export PATH=&quot;/usr/local/opt/openssl/bin:$PATH&quot;' &gt;&gt; ~/.bash_profile
 </code></pre>
 
 <ul>
@@ -256,10 +255,7 @@
 <pre><code class="bash">brew install libgit2
 </code></pre>
 
-<p>If terminal tells you it is not yet installed, then go for</p>
-<pre><code class="bash">brew reinstall libgit2
-</code></pre>
-
+<p>If terminal tells you it is not yet installed, then go for <code>brew reinstall libgit2</code></p>
 <h2 id="linux-users">Linux Users</h2>
 <p>To use the current R version, wee need to install some system tools. For this open a terminal session with <code>Crtl</code> + <code>Alt</code> + <code>T</code>.</p>
 <ul>

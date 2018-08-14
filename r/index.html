@@ -167,21 +167,20 @@
 R's use in the data science and econometrics community has taken off over recent years and (at a bare minimum) should be considered as an open source replacement to Stata.</p>
 <h2 id="installing-r">Installing R</h2>
 <p>Go to the <a href="https://cran.r-project.org/">R homepage</a> and download the installer for your operating system.</p>
-<p>The current version of R is 3.4</p>
+<p>The current version for Mac and Windows is <code>R version 3.5.1</code> and for Linux it is <code>R version 3.4.1</code></p>
 <h2 id="installing-rstudio">Installing RStudio</h2>
 <p>RStudio provides an easy to work with interface to R, and its format should feel familiar to Stata and Matlab users.</p>
-<p>Download and install RStudio for your operating system from <a href="https://www.rstudio.com/products/rstudio/download3/">here</a>.</p>
+<p>Download and install the free version of RStudio for your operating system from <a href="https://www.rstudio.com/products/rstudio/download3/">here</a>.</p>
 <h2 id="verifying-your-install-of-r">Verifying your Install of R</h2>
 <p>Open a terminal and enter:</p>
 <pre><code class="bash">R --version
 </code></pre>
 
-<p>followed by pressing <code>Return</code>.</p>
-<p>The expected output begins with:</p>
-<pre><code class="bash">R version 3.4.1 (2017-06-30) -- &quot;Single Candle&quot;
-Copyright (C) 2017 The R Foundation for Statistical Computing
+<p>followed by pressing <code>Return</code>. The expected return begins with:</p>
+<pre><code class="bash">R version 3.x.1 (201x-xx-xx) -- &quot;Some Funky Name&quot;
 </code></pre>
 
+<p>You should see the version corresponding to the one chosen on the website.</p>
 <div class="admonition danger">
 <p class="admonition-title"> Windows PATH Setting redux</p>
 <p>If you want R available from the command line (it is by default for Mac and Linux), we again need to update our PATH settings.</p>
@@ -218,6 +217,7 @@ install.packages(uzh_progecon)
 </code></pre>
 
 <ul>
+<li>If you are asked if you want to install packages that need compilation, type <code>y</code> followed by <code>Return</code> to confirm this.</li>
 <li>Wait until all the packages have been installed and the you are done.<ul>
 <li>It <em>may</em> take a while, so be patient</li>
 </ul>

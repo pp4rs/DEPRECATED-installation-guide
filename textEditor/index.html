@@ -178,7 +178,7 @@ Go to the [downloads page](https://www.sublimetext.com/3) and download the live 
 
 <h2 id="installing-atom">Installing Atom</h2>
 <h3 id="mac-and-windows-users">Mac and Windows Users</h3>
-<p>Go to the <a href="https://github.com/atom/atom/releases/latest">downloads page</a> and download the live installer for your operating system.</p>
+<p>Go to the <a href="https://github.com/atom/atom/releases/latest">downloads page</a> and download the live installer for your operating system. Mac users just copy the app into the applications folder.</p>
 <h3 id="linuxubuntu-users">Linux/Ubuntu users</h3>
 <p>Enter the following information to add a repository that has the Atom installation, then press <code>Return</code>:</p>
 <pre><code class="bash">sudo add-apt-repository ppa:webupd8team/atom
@@ -189,7 +189,7 @@ Go to the [downloads page](https://www.sublimetext.com/3) and download the live 
 </code></pre>
 
 <h2 id="verifying-atom-installation">Verifying Atom Installation</h2>
-<p>We want Atom to be available from the command line. For Mac and Linux Users this is the default so if you type the following into the command line:</p>
+<p>We want Atom to be available from the command line. For Mac and Linux Users this is the default after you have started the program once. So please open the application. Then open your terminal and type the following into the command line:</p>
 <pre><code class="bash">atom --version
 </code></pre>
 
@@ -223,20 +223,26 @@ Click <code>New</code> and paste the following string, modifying the <code>usern
 <p>For this course, we will install the minimum number of packages necessary to make your coding life easier.</p>
 <h2 id="installing-additional-packages-for-atom">Installing Additional Packages for Atom</h2>
 <p>Atom's package manager is built in to the program itself and is relatively easy to interact with.
-To access Atom's settings press <code>Ctrl + ,</code> on your keyboard then click on the <code>Install</code> tab which is visible on the left hand side.</p>
+To access Atom's settings press <code>Ctrl + ,</code> (<code>CMD + ,</code> on Mac) on your keyboard then click on the <code>Install</code> tab which is visible on the left hand side.</p>
 <p>On the Installation page there is a prompt where you can type in a package name and then press <code>Return</code> and Atom will search for that package for you and return results with similar names.
 When you find the package that you need, you click the blue 'Install' button and the package will be installed.</p>
 <p>For this course, please install the following packages:</p>
 <ul>
-<li>autocomplete-r</li>
-<li>autocomplete-python</li>
+<li>autocomplete-R</li>
+<li>autocomplete-python (choose Jedi as your engine when asked)</li>
 <li>autoflow</li>
 <li>language-r</li>
 <li>linter</li>
 <li>linter-lintr</li>
 <li>tablr</li>
 <li>platformio-ide-terminal</li>
-<li>project plus</li>
+<li>project-plus</li>
+<li>language-markdown</li>
+<li>markdown-table-editor</li>
+<li>markdown-preview-plus</li>
+<li>autocomplete-citeproc</li>
+<li>open-unsupported-files</li>
+<li>advanced-open-file</li>
 </ul>
 <p>If during the installation of a package Atom asks to install dependencies, always choose to accept.</p>
 <div class="admonition tip">
@@ -244,15 +250,10 @@ When you find the package that you need, you click the blue 'Install' button and
 <p>If you decide to stick with Atom after this course, you may find the following packages useful in your day to day work:</p>
 <ul>
 <li>language-latex</li>
-<li>language-markdown</li>
 <li>language-matlab</li>
 <li>language-stata</li>
 <li>atom-latex</li>
-<li>autocomplete-citeproc</li>
-<li>markdown-preview-plus</li>
 <li>whitespace</li>
-<li>advanced-open-file</li>
-<li>open-unsupported-files</li>
 </ul>
 <p>Feel free to ask us for whatever other packages we use to make our programming lives easier during some downtime.</p>
 </div>
