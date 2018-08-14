@@ -24,8 +24,8 @@ You will need to setup accounts for each of these: -->
 
 ## Mac Users
 
-On MacOS, download and install Git from [here](http://git-scm.com/download/mac).
-Also install the command-line auto-completion script, as described [here](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Auto-Completion).
+On MacOS, download and install Git from [here](http://git-scm.com/download/mac). If your system says it can't be opened, because it is from an unidentified developer, then open it via right-lick and `open`.
+Also install the command-line auto-completion script. For this go to [this website](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) and save the files as `git-completion.bash` to your user folder. For Uli it is under `/Users/ubergmann`.
 
 
 ## Linux Users
