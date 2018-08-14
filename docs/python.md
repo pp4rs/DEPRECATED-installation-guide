@@ -7,7 +7,7 @@ Follow the steps provided on the website.
 
 During the installation you will be asked whether you want Anaconda Python to be added to your PATH. **Click yes!**
 
-To verify that the correct version of Python has been installed and was made available in your PATH settings, open a **new** terminal interface and enter:
+To verify that the correct version of Python has been installed and was made available in your PATH settings, close your terminal and open a **new** terminal interface and enter:
 
 ```bash
 python --version
