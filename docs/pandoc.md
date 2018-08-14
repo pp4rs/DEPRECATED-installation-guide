@@ -5,22 +5,43 @@ For example, it readily builds PDFs with latex, and markdown - both of which are
 
 We do not actively teach how to use Pandoc in the course - but we will utilize it in some lessons where we produce PDF, Word or HTML output from plain text files.
 
-## Installation
+## Linux
 
-*   Go to the [Pandoc Homepage](https://pandoc.org/) and follow the installation instructions for your operating system.
-*   **Linux/Ubuntu users:** alternatively `sudo apt install pandoc` will install pandoc from the command line
-* **Mac users:** alternatively `brew install pandoc` will install pandoc from the command line
+Open a terminal window and type
+
+```bash
+sudo apt install pandoc
+```
+
+ to install pandoc from the command line
+
+## Mac
+
+Open a terminal window and type
+```bash
+brew install pandoc
+```
+
+to install pandoc from the command line
+
+## Windows
+
+Go to the [Pandoc Homepage](https://pandoc.org/) and follow the installation instructions for your operating system.
 
 
 ## Verify Your Install
 
 Verify your install by typing the following into a command line:
+
 ```bash
 pandoc --version
 ```
+
 The expected output starts with the following information:
+
 ```bash
-pandoc 1.17.2
+pandoc 1.19.2.1
+
 ```
 Ensure you have at least version 1.15.1 installed.
 
