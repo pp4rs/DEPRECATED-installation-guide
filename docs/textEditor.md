@@ -19,7 +19,7 @@ Go to the [downloads page](https://www.sublimetext.com/3) and download the live 
 
 ### Mac and Windows Users
 
-Go to the [downloads page](https://github.com/atom/atom/releases/latest) and download the live installer for your operating system.
+Go to the [downloads page](https://github.com/atom/atom/releases/latest) and download the live installer for your operating system. Mac users just copy the app into the applications folder.
 
 
 ### Linux/Ubuntu users
@@ -38,7 +38,7 @@ sudo apt update; sudo apt install atom
 
 ## Verifying Atom Installation
 
-We want Atom to be available from the command line. For Mac and Linux Users this is the default so if you type the following into the command line:
+We want Atom to be available from the command line. For Mac and Linux Users this is the default after you have started the program once. So please open the application. Then open your terminal and type the following into the command line:
 
 ```bash
 atom --version
@@ -84,22 +84,28 @@ For this course, we will install the minimum number of packages necessary to mak
 ## Installing Additional Packages for Atom
 
 Atom's package manager is built in to the program itself and is relatively easy to interact with.
-To access Atom's settings press `Ctrl + ,` on your keyboard then click on the `Install` tab which is visible on the left hand side.
+To access Atom's settings press `Ctrl + ,` (`CMD + ,` on Mac) on your keyboard then click on the `Install` tab which is visible on the left hand side.
 
 On the Installation page there is a prompt where you can type in a package name and then press `Return` and Atom will search for that package for you and return results with similar names.
 When you find the package that you need, you click the blue 'Install' button and the package will be installed.
 
 For this course, please install the following packages:
 
-*   autocomplete-r
-*   autocomplete-python
+*   autocomplete-R
+*   autocomplete-python (choose Jedi as your engine when asked)
 *   autoflow
 *   language-r
 *   linter
 *   linter-lintr
 *   tablr
 *   platformio-ide-terminal
-*   project plus
+*   project-plus
+*   language-markdown
+*   markdown-table-editor
+*   markdown-preview-plus
+*   autocomplete-citeproc
+*   open-unsupported-files
+*   advanced-open-file
 
 If during the installation of a package Atom asks to install dependencies, always choose to accept.
 
@@ -107,14 +113,11 @@ If during the installation of a package Atom asks to install dependencies, alway
     If you decide to stick with Atom after this course, you may find the following packages useful in your day to day work:
 
     *   language-latex
-    *   language-markdown
     *   language-matlab
     *   language-stata
     *   atom-latex
-    *   autocomplete-citeproc
-    *   markdown-preview-plus
     *   whitespace
-    *   advanced-open-file
-    *   open-unsupported-files
+
+
 
     Feel free to ask us for whatever other packages we use to make our programming lives easier during some downtime.
