@@ -6,13 +6,25 @@ If you're interested in all the packages included, click [here](https://docs.con
 Howevever, you may come across packages that are not installed by default.
 In this case we recommend you use the `pip` package management tool to install them.
 
-For this course, we will need the package `Selenium` as part of the web scraping tool kit we will build up. We install it by entering the following into a terminal:
+First let us update pip by typing the following into the terminal
+
+```bash
+pip install --upgrade pip
+```
+
+For this course, we will need the package `Selenium` as part of the web scraping tool kit we will build up. First let us install a depency for it via
+
+```bash
+pip install msgpack
+```
+
+We then install `selenium` by entering the following into a terminal:
 
 ```bash
 pip install selenium
 ```
 
-`pip` will then go through and install the package we asked for, and any dependencies.
+`pip` will then go through and install the package we asked for, and any other dependencies.
 If this succeeded, the last line it printed out should be:
 
 ```
