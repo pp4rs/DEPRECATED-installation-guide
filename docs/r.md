@@ -13,7 +13,7 @@ The current version of R is 3.4
 
 RStudio provides an easy to work with interface to R, and its format should feel familiar to Stata and Matlab users.
 
-Download and install RStudio for your operating system from [here](https://www.rstudio.com/products/rstudio/download3/).
+Download and install the free version of RStudio for your operating system from [here](https://www.rstudio.com/products/rstudio/download3/).
 
 ## Verifying your Install of R
 
@@ -25,12 +25,7 @@ R --version
 
 followed by pressing `Return`.
 
-The expected output begins with:
-
-```bash
-R version 3.4.1 (2017-06-30) -- "Single Candle"
-Copyright (C) 2017 The R Foundation for Statistical Computing
-```
+The current version for Mac and Windows is `R version 3.5.1` and for Linux it is `R version 3.4.1` output begins with:
 
 !!! danger " Windows PATH Setting redux"
     If you want R available from the command line (it is by default for Mac and Linux), we again need to update our PATH settings.
@@ -72,5 +67,7 @@ uzh_progecon <- c(  "reshape", "rmarkdown",
 
 install.packages(uzh_progecon)
 ```
+
+* If you are asked if you want to install packages that need compilation, type `y` followed by `Return` to confirm this.
 *   Wait until all the packages have been installed and the you are done.
     *   It *may* take a while, so be patient
