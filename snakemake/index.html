@@ -86,7 +86,9 @@
     
         <ul>
         
-            <li><a class="toctree-l3" href="#installation">Installation</a></li>
+            <li><a class="toctree-l3" href="#mac-linux-users">Mac &amp; Linux Users:</a></li>
+        
+            <li><a class="toctree-l3" href="#windows-users">Windows users</a></li>
         
         </ul>
     
@@ -171,8 +173,8 @@ We will use make to automate the execution of our research projects with a "sing
 <li>It was designed for academic/professional research (in Bioformatics) so it feels more intuitive than most alternatives for our desired audience.</li>
 </ul>
 </div>
-<h3 id="installation">Installation</h3>
 <p>Snakemake is a python package - so we can install using the default python installer, pip.</p>
+<h2 id="mac-linux-users">Mac &amp; Linux Users:</h2>
 <p>In a terminal window enter the command:</p>
 <pre><code class="bash">pip install snakemake
 </code></pre>
@@ -183,6 +185,28 @@ We will use make to automate the execution of our research projects with a "sing
 </code></pre>
 
 <p>into a terminal and pressing <code>Return.</code></p>
+<p>The expected output is the current version on the software, which should be greater than</p>
+<pre><code class="bash">5.2.2
+</code></pre>
+
+<h2 id="windows-users">Windows users</h2>
+<p>We need one extra step here. In a cygwin window enter the command:</p>
+<pre><code class="bash">conda install datrie
+</code></pre>
+
+<p>followed by pressing <code>Return</code>.</p>
+<p>If you get an access denied error, you may have not clicked on single user install in the Anaconda installation. De- and re-install Anaconda and try again.</p>
+<p>If the above command works, your terminal will look something like this:</p>
+<pre><code class="bash">The following NEW packages will be INSTALLED:
+datrie: 0.7.1
+proceed ([y]/n)
+</code></pre>
+
+<p>Type <code>y</code> and hit enter. Once this is done, type:</p>
+<pre><code class="bash">pip install snakemake
+</code></pre>
+
+<p>followed by pressing the <code>Return</code> key.</p>
 <p>The expected output is the current version on the software, which should be greater than</p>
 <pre><code class="bash">5.2.2
 </code></pre>

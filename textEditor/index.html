@@ -174,11 +174,15 @@ We should get you past the steepest part of the learning curve during the course
 </div>
 <!-- ## Installing Sublime Text
 
-Go to the [downloads page](https://www.sublimetext.com/3) and download the live installer for your operating system. -->
+Go to the [downloads page](https://www.sublimetext.com/3) and download the live installer for your operating system.-->
 
 <h2 id="installing-atom">Installing Atom</h2>
 <h3 id="mac-and-windows-users">Mac and Windows Users</h3>
-<p>Go to the <a href="https://github.com/atom/atom/releases/latest">downloads page</a> and download the live installer for your operating system. Mac users just copy the app into the applications folder.</p>
+<p>Go to the <a href="https://github.com/atom/atom/releases/latest">downloads page</a> and download the live installer for your operating system.</p>
+<ul>
+<li>Windows users download AtomSetup-x64.exe and execiute the installer</li>
+<li>Mac users download Atom-Mac.zip and copy the contained Atom.app into the applications folder</li>
+</ul>
 <h3 id="linuxubuntu-users">Linux/Ubuntu users</h3>
 <p>Enter the following information to add a repository that has the Atom installation, then press <code>Return</code>:</p>
 <pre><code class="bash">sudo add-apt-repository ppa:webupd8team/atom
@@ -189,7 +193,7 @@ Go to the [downloads page](https://www.sublimetext.com/3) and download the live 
 </code></pre>
 
 <h2 id="verifying-atom-installation">Verifying Atom Installation</h2>
-<p>We want Atom to be available from the command line. For Mac and Linux Users this is the default after you have started the program once. So please open the application. Then open your terminal and type the following into the command line:</p>
+<p>We want Atom to be available from the command line. For Mac and Linux Users this is the default after you have started the program once. So please open Atom. Then open your terminal and type the following into the command line:</p>
 <pre><code class="bash">atom --version
 </code></pre>
 
@@ -217,6 +221,10 @@ Click <code>New</code> and paste the following string, modifying the <code>usern
 </code></pre>
 <p>Click on <code>OK</code> as often as needed.</p>
 <p>Close your current terminal session, open a new one, and again try <code>atom .</code> - the Atom editor will open if this was successful.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You will need to add a new PATH for most of the following installation steps. Always keep in mind that after you add a new PATH, you need to start a <em>new</em> cygwin/terminal session to verify whether it worked. Sometimes it may take a couple of minutes until your PATH is recognized by the terminal. </p>
+</div>
 </div>
 <h2 id="additional-packages-for-atom">Additional Packages for Atom</h2>
 <p>One of the advantages of Atom is that there are many <em>packages</em> that make your life easier, ranging from simple syntax highlighting to environments that can mimic a complete graphical user interface.</p>

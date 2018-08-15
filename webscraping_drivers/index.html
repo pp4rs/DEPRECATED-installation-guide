@@ -172,7 +172,12 @@ This is especially true when the site we want to scrape has content that is load
 
 <h3 id="chromedriver">Chromedriver</h3>
 <ul>
-<li>Install via homebrew:</li>
+<li>
+<p>We assume you have Google Chrome installed. If not, do this first.</p>
+</li>
+<li>
+<p>Install <code>chromedriver</code> via homebrew:</p>
+</li>
 </ul>
 <pre><code>brew cask install chromedriver
 </code></pre>
@@ -189,6 +194,7 @@ This is especially true when the site we want to scrape has content that is load
 <li>Install Google Chrome from <a href="https://www.google.com/chrome/browser/desktop/index.html">here</a></li>
 <li>Download the windows version of Chromedriver from <a href="https://chromedriver.storage.googleapis.com/index.html?path=2.41/">here</a>.</li>
 <li>Extract the contents from the zip file, and extract them into a new directory under <code>C:\chromedriver</code></li>
+<li>Make sure that the chromedriver.exe file is directly under the PATH you specified, i.e. under C:\chromedriver. If your zip unpacker created a new folder with a different name inside your specified folder, move the .exe file to <code>C:\chromedriver</code>.</li>
 <li>Add the directory <code>C:\chromedriver</code> to your PATH as described before.</li>
 <li>If this went successfully, open a new Cygwin session, and enter <code>chromedriver --version</code>, you should get output that looks like <code>ChromeDriver 2.4X.XX</code></li>
 </ul>

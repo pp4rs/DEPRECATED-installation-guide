@@ -74,6 +74,14 @@
             
     <li class="toctree-l2"><a href="#installing-anaconda-python">Installing Anaconda Python</a></li>
     
+        <ul>
+        
+            <li><a class="toctree-l3" href="#windows-users">Windows users:</a></li>
+        
+            <li><a class="toctree-l3" href="#mac-linuxubuntu-users">Mac &amp; Linux/Ubuntu users:</a></li>
+        
+        </ul>
+    
 
     </ul>
 	    </li>
@@ -153,35 +161,29 @@
                 <h1 id="installing-anaconda-python">Installing Anaconda Python</h1>
 <p>Anaconda is a pre-packaged Python distribution for scientific users.</p>
 <p>Direct your browser to <a href="https://www.continuum.io/downloads">Anaconda download page</a> and download the Python 3.6 Graphical Installer for your machine.
-Follow the steps provided on the website.</p>
-<p>During the installation you will be asked whether you want Anaconda Python to be added to your PATH. <strong>Click yes!</strong></p>
+Follow the steps provided on the website. If you are on a windows machine, check the tips for a smoot install below.</p>
+<p>During the installation you will be asked whether you want Anaconda Python to be added to your PATH. <strong>Click yes!</strong> Even if the installation window gives a warning about adding it to your PATH, please still check that box.</p>
+<div class="admonition note">
+<p class="admonition-title">For Windows Users:</p>
+<ul>
+<li>When asked if you want single or multiple user installation, choose single user</li>
+<li>Accept all defaults that are set in the installation window</li>
+<li>Check the box for adding Anaconda to your PATH</li>
+<li>In the last step, you are asked if you want Visual Studio, click <strong>Yes</strong>.</li>
+</ul>
+</div>
 <p>To verify that the correct version of Python has been installed and was made available in your PATH settings, close your terminal and open a <strong>new</strong> terminal interface and enter:</p>
 <pre><code class="bash">python --version
 </code></pre>
 
 <p>followed by hitting the <code>Return</code> key.</p>
 <p>You should see the following information returned:</p>
-<ul>
-<li>Windows users:</li>
-</ul>
-<pre><code class="bash">Python 3.6.1 :: Anaconda 4.4.0 (64-bit)
+<h2 id="windows-users">Windows users:</h2>
+<pre><code class="bash">Python 3.6.5 :: Anaconda, Inc.
 </code></pre>
 
-<ul>
-<li>Linux/Ubuntu users:</li>
-</ul>
+<h2 id="mac-linuxubuntu-users">Mac &amp; Linux/Ubuntu users:</h2>
 <pre><code class="bash">Python 3.6.2 :: Anaconda custom (64-bit)
-</code></pre>
-
-<ul>
-<li>Mac users:
-you may get this:</li>
-</ul>
-<pre><code class="bash">Python 3.6.1 |  Anaconda 4.4.0 (x86_64)
-</code></pre>
-
-<p>or this:</p>
-<pre><code class="bash">Python 3.6.1 ::  Anaconda 4.4.0 (x86_64)
 </code></pre>
 
 <div class="admonition tip">
