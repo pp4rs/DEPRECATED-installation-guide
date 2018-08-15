@@ -18,7 +18,9 @@ brew update
 
 ### Chromedriver
 
-*   Install via homebrew:
+* We assume you have Google Chrome installed. If not, do this first.
+
+*   Install `chromedriver` via homebrew:
 ```
 brew cask install chromedriver
 ```
@@ -35,7 +37,8 @@ chromedriver --version
 *   Install Google Chrome from [here](https://www.google.com/chrome/browser/desktop/index.html)
 *   Download the windows version of Chromedriver from [here](https://chromedriver.storage.googleapis.com/index.html?path=2.41/).
 *   Extract the contents from the zip file, and extract them into a new directory under `C:\chromedriver`
-*   Add the directory `C:\chromedriver` to your PATH as described before. Make sure that the chromedriver.exe file is directly under the PATH you specified, i.e. under C:\chromedriver. If your zip unpacker created a new folder with a different name inside your specified folder, move the .exe file accordingly or change the name of your PATH variable.
+*   Make sure that the chromedriver.exe file is directly under the PATH you specified, i.e. under C:\chromedriver. If your zip unpacker created a new folder with a different name inside your specified folder, move the .exe file to `C:\chromedriver`.
+*   Add the directory `C:\chromedriver` to your PATH as described before.
 *   If this went successfully, open a new Cygwin session, and enter `chromedriver --version`, you should get output that looks like `ChromeDriver 2.4X.XX`
 
 

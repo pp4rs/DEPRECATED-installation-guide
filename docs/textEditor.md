@@ -19,7 +19,10 @@ Go to the [downloads page](https://www.sublimetext.com/3) and download the live 
 
 ### Mac and Windows Users
 
-Go to the [downloads page](https://github.com/atom/atom/releases/latest) and download the live installer for your operating system (you want to download a .exe file). Mac users just copy the app into the applications folder.
+Go to the [downloads page](https://github.com/atom/atom/releases/latest) and download the live installer for your operating system.
+
+* Windows users download AtomSetup-x64.exe and execiute the installer
+* Mac users download Atom-Mac.zip and copy the contained Atom.app into the applications folder
 
 
 ### Linux/Ubuntu users
@@ -38,7 +41,7 @@ sudo apt update; sudo apt install atom
 
 ## Verifying Atom Installation
 
-We want Atom to be available from the command line. For Mac and Linux Users this is the default after you have started the program once. So please open the application. Then open your terminal and type the following into the command line:
+We want Atom to be available from the command line. For Mac and Linux Users this is the default after you have started the program once. So please open Atom. Then open your terminal and type the following into the command line:
 
 ```bash
 atom --version
@@ -73,7 +76,10 @@ Make sure that the version numbers are above `1.26.x` or newer.
 
     Click on `OK` as often as needed.
 
-    Close your current terminal session, open a new one, and again try `atom .` - the Atom editor will open if this was successful. You will need to add a new PATH for most of the following installation steps. Always keep in mind that after you add a new PATH, you need to start a *new* cygwin/terminal session to verify whether it worked. Sometimes it may take a couple of minutes until your PATH is recognized by the terminal. 
+    Close your current terminal session, open a new one, and again try `atom .` - the Atom editor will open if this was successful.
+
+    !!! tip
+        You will need to add a new PATH for most of the following installation steps. Always keep in mind that after you add a new PATH, you need to start a *new* cygwin/terminal session to verify whether it worked. Sometimes it may take a couple of minutes until your PATH is recognized by the terminal. 
 
 ## Additional Packages for Atom
 
