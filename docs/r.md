@@ -41,12 +41,12 @@ You should see the version corresponding to the one chosen on the website.
     **Windows 7 and 8 machines:**
     If you accepted all defaults during your installation, and didn't have any other non-default setting prior to starting this guide, copy and paste the following string without spaces at the start or end:
 
-            ;C:\Program Files\R\R-3.4.1\bin
+            ;C:\Program Files\R\R-3.5.1\bin
 
     **Windows 10 machines:**
     Click `New` and paste the following string:
 
-            C:\Program Files\R\R-3.4.1\bin
+            C:\Program Files\R\R-3.5.1\bin
 
     Click on `OK` as often as needed.
 

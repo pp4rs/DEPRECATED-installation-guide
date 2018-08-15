@@ -13,13 +13,13 @@ We should get you past the steepest part of the learning curve during the course
 
 <!-- ## Installing Sublime Text
 
-Go to the [downloads page](https://www.sublimetext.com/3) and download the live installer for your operating system. -->
+Go to the [downloads page](https://www.sublimetext.com/3) and download the live installer for your operating system.-->
 
 ## Installing Atom
 
 ### Mac and Windows Users
 
-Go to the [downloads page](https://github.com/atom/atom/releases/latest) and download the live installer for your operating system. Mac users just copy the app into the applications folder.
+Go to the [downloads page](https://github.com/atom/atom/releases/latest) and download the live installer for your operating system (you want to download a .exe file). Mac users just copy the app into the applications folder.
 
 
 ### Linux/Ubuntu users
@@ -73,7 +73,7 @@ Make sure that the version numbers are above `1.26.x` or newer.
 
     Click on `OK` as often as needed.
 
-    Close your current terminal session, open a new one, and again try `atom .` - the Atom editor will open if this was successful.
+    Close your current terminal session, open a new one, and again try `atom .` - the Atom editor will open if this was successful. You will need to add a new PATH for most of the following installation steps. Always keep in mind that after you add a new PATH, you need to start a *new* cygwin/terminal session to verify whether it worked. Sometimes it may take a couple of minutes until your PATH is recognized by the terminal. 
 
 ## Additional Packages for Atom
 

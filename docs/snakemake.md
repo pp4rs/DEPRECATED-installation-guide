@@ -17,6 +17,7 @@ We will use make to automate the execution of our research projects with a "sing
 ### Installation
 
 Snakemake is a python package - so we can install using the default python installer, pip.
+If you are on windows, see special instructions below.
 
 In a terminal window enter the command:
 ```bash
@@ -29,6 +30,35 @@ Verify that your installation worked correctly by entering
 snakemake --version
 ```
 into a terminal and pressing `Return.`
+
+The expected output is the current version on the software, which should be greater than
+```bash
+5.2.2
+```
+
+##   Windows users
+
+We need one extra step here:  
+In your cygwin (or other) terminal window enter the command:
+```bash
+conda install datrie
+```
+followed by pressing the `Return` key.
+There have been some issues with admin rights. If you get an access denied error,
+you may have not clicked on single user install in the Anaconda installation. De- and re-install Anaconda and try again.
+
+If the above command works, your terminal will look something like this:
+```bash
+The following NEW packages will be INSTALLED:
+datrie: 0.7.1
+proceed ([y]/n)
+```
+Type y and hit enter. Once you get the message that Executive transactions are done, type
+
+```bash
+pip install snakemake
+```
+followed by pressing the `Return` key.
 
 The expected output is the current version on the software, which should be greater than
 ```bash

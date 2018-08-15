@@ -15,6 +15,11 @@ First let us update pip by typing the following into the terminal
 pip install --upgrade pip
 ```
 
+If you get an error, try typing instead:
+```bash
+python -m pip install --upgrade pip
+```
+
 For this course, we will need the package `Selenium` as part of the web scraping tool kit we will build up. First let us install a depency for it via
 
 ```bash
@@ -31,7 +36,7 @@ pip install selenium
 If this succeeded, the last line it printed out should be:
 
 ```
-Successfully installed selenium-3.5.0
+Successfully installed selenium-3.14.0
 ```
 
 ## More packages

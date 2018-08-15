@@ -9,7 +9,7 @@ Throughout the course we will emphasize use of the terminal and executing comman
 So that we can work as closely as possible to the Mac and Linux users we will install [Cygwin](https://www.cygwin.com/).
 
 *   Download Cygwin [here](https://cygwin.com/install.html) and use the graphical installer. Accept all the default options.
-
+*   Choose any server from which to download cygwin and packages when prompted. 
 *   Verify your installation by opening Cygwin. When it opens you should see a black box with some text that looks like:
 ```bash
 userName@computerName: ~$
