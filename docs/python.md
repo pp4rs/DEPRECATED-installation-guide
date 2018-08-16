@@ -14,7 +14,17 @@ During the installation you will be asked whether you want Anaconda Python to be
     *   In the last step, you are asked if you want Visual Studio, click **Yes**.
 
 
+!!! note "For Linux Users:"
+    *   You may not have the option to click on "Add to my PATH".
+    *   If that happens, you can add the PATH manually once the installation is done:
+        *   Just add your path to your ".bashrc" profile.
+        *   For that, copy the path as suggested in the shell, open the .bashrc file with atom and paste the path in the end of the document
+
+
+
+
 To verify that the correct version of Python has been installed and was made available in your PATH settings, close your terminal and open a **new** terminal interface and enter:
+
 
 ```bash
 python --version
