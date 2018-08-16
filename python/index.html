@@ -76,9 +76,7 @@
     
         <ul>
         
-            <li><a class="toctree-l3" href="#windows-users">Windows users:</a></li>
-        
-            <li><a class="toctree-l3" href="#mac-linuxubuntu-users">Mac &amp; Linux/Ubuntu users:</a></li>
+            <li><a class="toctree-l3" href="#verifying-that-the-installation-was-successful">Verifying that the installation was successful</a></li>
         
         </ul>
     
@@ -161,7 +159,7 @@
                 <h1 id="installing-anaconda-python">Installing Anaconda Python</h1>
 <p>Anaconda is a pre-packaged Python distribution for scientific users.</p>
 <p>Direct your browser to <a href="https://www.continuum.io/downloads">Anaconda download page</a> and download the Python 3.6 Graphical Installer for your machine.
-Follow the steps provided on the website. If you are on a windows machine, check the tips for a smoot install below.</p>
+Follow the steps provided on the website.</p>
 <p>During the installation you will be asked whether you want Anaconda Python to be added to your PATH. <strong>Click yes!</strong> Even if the installation window gives a warning about adding it to your PATH, please still check that box.</p>
 <div class="admonition note">
 <p class="admonition-title">For Windows Users:</p>
@@ -174,32 +172,26 @@ Follow the steps provided on the website. If you are on a windows machine, check
 </div>
 <div class="admonition note">
 <p class="admonition-title">For Linux Users:</p>
-<ul>
-<li>You may not have the option to click on "Add to my PATH".</li>
-<li>If that happens, you can add the PATH manually once the installation is done:<ul>
-<li>Just add your path to your ".bashrc" profile.</li>
-<li>For that, copy the path as suggested in the shell, open the .bashrc file with atom and paste the path in the end of the document</li>
-</ul>
-</li>
-</ul>
+<p>For some users Python was not added to the path. To quickly do this, please open a terminal window, paste <code>echo '$HOME/anaconda3/bin:$PATH' &gt;&gt; ~/.bashrc</code> and press <code>Return</code>.</p>
 </div>
+<h2 id="verifying-that-the-installation-was-successful">Verifying that the installation was successful</h2>
 <p>To verify that the correct version of Python has been installed and was made available in your PATH settings, close your terminal and open a <strong>new</strong> terminal interface and enter:</p>
 <pre><code class="bash">python --version
 </code></pre>
 
 <p>followed by hitting the <code>Return</code> key.</p>
 <p>You should see the following information returned:</p>
-<h2 id="windows-users">Windows users:</h2>
+<h3 id="windows-users">Windows users:</h3>
 <pre><code class="bash">Python 3.6.5 :: Anaconda, Inc.
 </code></pre>
 
-<h2 id="mac-linuxubuntu-users">Mac &amp; Linux/Ubuntu users:</h2>
+<h3 id="mac-linuxubuntu-users">Mac &amp; Linux/Ubuntu users:</h3>
 <pre><code class="bash">Python 3.6.2 :: Anaconda custom (64-bit)
 </code></pre>
 
 <div class="admonition tip">
 <p class="admonition-title">Python 2 vs Python 3</p>
-<p>Python 2 and 3 are incompatible in syntax. If you had Python 2 previously installed on your machine, you have seen <code>Python 2.x.x</code> above, try typing</p>
+<p>Python 2 and 3 are incompatible in syntax. If you had Python 2 previously installed on your machine, you might have seen <code>Python 2.x.x</code> above. In that case try typing</p>
 <p><code>python3 --version</code></p>
 <p>instead. Now you should see a message like the one above and are good to go for the course.</p>
 </div>
