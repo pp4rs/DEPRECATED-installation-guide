@@ -282,7 +282,7 @@
         },
         {
             "location": "/contact/",
-            "text": "Contact Us\n\n\nProgramming Practices Team\n\n\nProgramming Practices for Research in Economics was created by\n\n\n\n\nLachlan Deer\n\n\nAdrian Etter\n\n\nJulian Langer\n\n\nMax Winkler\n\n\n\n\nat the Department of Economics, University of Zurich in 2016. This installation guide is for the 2018 edition, conducted by\n\n\n\n\nUlrich Bergmann\n\n\nUrsina Schaede\n\n\nDora Simon\n\n\nCarlo Zanella\n\n\n\n\nChristian Z\u00fcnd\nProgramming Practices for Economics Research was created by\n\n\n\n\n\n\nLachlan Deer\n\n\n\n\nAdrian Etter\n\n\nJulian Langer\n\n\nMax Winkler\n\n\n\n\nQuestions or Comments?\n\n\nPlease contact us via email:\n\n\nprogramming \"AT\" econ.uzh.ch\n\n\n\n\nwith the title \"Installation Guide: Programming Practices for Research in Economics.\"\n\n\nWe look forward to hearing from you if you have questions about the installation guide, found this installation guide useful, or have further comments or suggestions to improve it.",
+            "text": "Contact Us\n\n\nProgramming Practices Team\n\n\nProgramming Practices for Research in Economics was created by\n\n\n\n\nLachlan Deer\n\n\nAdrian Etter\n\n\nJulian Langer\n\n\nMax Winkler\n\n\n\n\nat the Department of Economics, University of Zurich in 2016. This installation guide is for the 2018 edition, conducted by\n\n\n\n\nUlrich Bergmann\n\n\nUrsina Schaede\n\n\nDora Simon\n\n\nCarlo Zanella\n\n\nChristian Z\u00fcnd\n\n\n\n\nQuestions or Comments?\n\n\nPlease contact us via email:\n\n\nprogramming \"AT\" econ.uzh.ch\n\n\n\n\nwith the title \"Installation Guide: Programming Practices for Research in Economics.\"\n\n\nWe look forward to hearing from you if you have questions about the installation guide, found this installation guide useful, or have further comments or suggestions to improve it.",
             "title": "Contact"
         },
         {
@@ -292,7 +292,7 @@
         },
         {
             "location": "/contact/#programming-practices-team",
-            "text": "Programming Practices for Research in Economics was created by   Lachlan Deer  Adrian Etter  Julian Langer  Max Winkler   at the Department of Economics, University of Zurich in 2016. This installation guide is for the 2018 edition, conducted by   Ulrich Bergmann  Ursina Schaede  Dora Simon  Carlo Zanella   Christian Z\u00fcnd\nProgramming Practices for Economics Research was created by    Lachlan Deer   Adrian Etter  Julian Langer  Max Winkler",
+            "text": "Programming Practices for Research in Economics was created by   Lachlan Deer  Adrian Etter  Julian Langer  Max Winkler   at the Department of Economics, University of Zurich in 2016. This installation guide is for the 2018 edition, conducted by   Ulrich Bergmann  Ursina Schaede  Dora Simon  Carlo Zanella  Christian Z\u00fcnd",
             "title": "Programming Practices Team"
         },
         {
@@ -302,7 +302,7 @@
         },
         {
             "location": "/acknowledgement/",
-            "text": "Acknowledgements\n\n\nThis module is based on the 2016 and 2017 versions of the course:\n\n\n\n\nProgramming Practices For Economists\n, by Lachlan Deer, Adrian Etter, Julian Langer & Max Winkler\n\n\n\n\nIt is designed after and borrows a lot from:\n\n\n\n\nEffective Programming Practices for Economists\n, a course by \nHans-Martin von Gaudecker\n\n\nSoftware Carpentry's \nManaging Software Research Projects\n lesson\n\n\n\n\nGuiding Principles\n borrows a lot from the paper\n\n\n\n\nWilson G, Aruliah DA, Brown CT, Chue Hong NP, Davis M, Guy RT, et al. (2014) \nBest Practices for Scientific Computing\n. PLoS Biol 12(1): e1001745.\n\n\n\n\nLicense\n\n\nMaterial is licensed under a CC-BY-NC-SA license. Further information is available at our \ncourse homepage\n\n\nSuggested Citation:\n\n\n\n\nUlrich Bergmann, Lachlan Deer, Adrian Etter, Julian Langer, Ursina Schaede, Dora Simon, Max Winkler, Carlo Zanella & Christian Zund, 2018, \nIntroduction and Motivation\n, Programming Practices for Research in Economics, University of Zurich\n\n\n\n\nProgramming Practices Team\n\n\nProgramming Practices for Research in Economics was created by\n\n\n\n\nLachlan Deer\n\n\nAdrian Etter\n\n\nJulian Langer\n\n\nMax Winkler\n\n\n\n\nat the Department of Economics, University of Zurich in 2016. This is the installation guide for the 2018 edition, conducted by\n\n\n\n\nUlrich Bergmann\n\n\nUrsina Schaede\n\n\nDora Simon\n\n\nCarlo Zanella\n\n\nChristian Z\u00fcnd",
+            "text": "Acknowledgements\n\n\nThis module is based on the 2016 and 2017 versions of the course:\n\n\n\n\nProgramming Practices For Economists\n, by Lachlan Deer, Adrian Etter, Julian Langer & Max Winkler\n\n\n\n\nIt is designed after and borrows a lot from:\n\n\n\n\nEffective Programming Practices for Economists\n, a course by \nHans-Martin von Gaudecker\n\n\nSoftware Carpentry's \nManaging Software Research Projects\n lesson\n\n\n\n\nGuiding Principles\n borrows a lot from the paper\n\n\n\n\nWilson G, Aruliah DA, Brown CT, Chue Hong NP, Davis M, Guy RT, et al. (2014) \nBest Practices for Scientific Computing\n. PLoS Biol 12(1): e1001745.\n\n\n\n\nLicense\n\n\nMaterial is licensed under a CC-BY-NC-SA license. Further information is available at our \ncourse homepage\n\n\nSuggested Citation:\n\n\n\n\nUlrich Bergmann, Lachlan Deer, Adrian Etter, Julian Langer, Ursina Schaede, Dora Simon, Max Winkler, Carlo Zanella & Christian Z\u00fcnd, 2018, \nInstallation Guide\n, Programming Practices for Research in Economics, University of Zurich",
             "title": "Acknowledgements"
         },
         {
@@ -312,13 +312,8 @@
         },
         {
             "location": "/acknowledgement/#license",
-            "text": "Material is licensed under a CC-BY-NC-SA license. Further information is available at our  course homepage  Suggested Citation:   Ulrich Bergmann, Lachlan Deer, Adrian Etter, Julian Langer, Ursina Schaede, Dora Simon, Max Winkler, Carlo Zanella & Christian Zund, 2018,  Introduction and Motivation , Programming Practices for Research in Economics, University of Zurich",
+            "text": "Material is licensed under a CC-BY-NC-SA license. Further information is available at our  course homepage  Suggested Citation:   Ulrich Bergmann, Lachlan Deer, Adrian Etter, Julian Langer, Ursina Schaede, Dora Simon, Max Winkler, Carlo Zanella & Christian Z\u00fcnd, 2018,  Installation Guide , Programming Practices for Research in Economics, University of Zurich",
             "title": "License"
-        },
-        {
-            "location": "/acknowledgement/#programming-practices-team",
-            "text": "Programming Practices for Research in Economics was created by   Lachlan Deer  Adrian Etter  Julian Langer  Max Winkler   at the Department of Economics, University of Zurich in 2016. This is the installation guide for the 2018 edition, conducted by   Ulrich Bergmann  Ursina Schaede  Dora Simon  Carlo Zanella  Christian Z\u00fcnd",
-            "title": "Programming Practices Team"
         }
     ]
 }
