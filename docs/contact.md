@@ -16,13 +16,6 @@ at the Department of Economics, University of Zurich in 2016. This installation 
 * Dora Simon
 * Carlo Zanella
 * Christian Zünd
-Programming Practices for Economics Research was created by
-
-* Lachlan Deer
-* Adrian Etter
-* Julian Langer
-* Max Winkler
-
 
 ## Questions or Comments?
 

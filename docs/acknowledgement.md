@@ -19,22 +19,4 @@ Material is licensed under a CC-BY-NC-SA license. Further information is availab
 
 Suggested Citation:
 
-* Ulrich Bergmann, Lachlan Deer, Adrian Etter, Julian Langer, Ursina Schaede, Dora Simon, Max Winkler, Carlo Zanella & Christian Zund, 2018, `Introduction and Motivation`, Programming Practices for Research in Economics, University of Zurich
-
-
-## Programming Practices Team
-
-Programming Practices for Research in Economics was created by
-
-* Lachlan Deer
-* Adrian Etter
-* Julian Langer
-* Max Winkler
-
-at the Department of Economics, University of Zurich in 2016. This is the installation guide for the 2018 edition, conducted by
-
-* Ulrich Bergmann
-* Ursina Schaede
-* Dora Simon
-* Carlo Zanella
-* Christian Zünd
+* Ulrich Bergmann, Lachlan Deer, Adrian Etter, Julian Langer, Ursina Schaede, Dora Simon, Max Winkler, Carlo Zanella & Christian Zünd, 2018, `Installation Guide`, Programming Practices for Research in Economics, University of Zurich
