@@ -25,7 +25,19 @@ You will need to setup accounts for each of these: -->
 ## Mac Users
 
 On MacOS, download and install Git from [here](http://git-scm.com/download/mac). If your system says it can't be opened, because it is from an unidentified developer, then open it via right-lick and `open`.
-Also install the command-line auto-completion script. For this go to [this website](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) and save the files as `git-completion.bash` to your user folder. For Uli it is under `/Users/ubergmann`.
+Also install the command-line auto-completion script. For this go to [this website](https://github.com/git/git/raw/master/contrib/completion/git-completion.bash). You should now see a the text file starting with
+
+```
+# bash/zsh completion support for core Git.
+#
+# Copyright (C) 2006,2007 Shawn O. Pearce <spearce@spearce.org>
+# Conceptually based on gitcompletion (http://gitweb.hawaga.org.uk/).
+# Distributed under the GNU General Public License, version 2.0.
+```
+
+save this file as `git-completion.bash` to your user folder by pressing `CMD+s`. If you want to know where your user folder is, open a terminal and type ```pwd```. For Uli it is for example under `/Users/ubergmann`.
+
+If you use Safari, make sure to save the file as `Page Source` and don't append a `.txt` to its filename (Chrome does this automatically). If everything went right, you can now type `ls` in your terminal window and should see `git-completion.bash` there between other files.
 
 
 ## Linux Users
